@@ -1,0 +1,3005 @@
+{
+  "name": "ipython",
+  "version": "9.15.0",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "ipython-9.15.0-py312haa95532_0.conda",
+  "md5": "0fe8bfc4701bcd26d5f7eefc29dc0f99",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ipython-9.15.0-py312haa95532_0.conda",
+  "sha256": "7468d6c2494d192ae1f4cd383661cd80124196e8544153f06d61eb0945a64f6d",
+  "depends": [
+    "colorama >=0.4.4",
+    "decorator >=5.1.0",
+    "ipython_pygments_lexers >=1.0.0",
+    "jedi >=0.18.2",
+    "matplotlib-inline >=0.1.6",
+    "prompt_toolkit >=3.0.41,<3.1.0",
+    "psutil >=7",
+    "pygments >=2.14.0",
+    "python >=3.12,<3.13.0a0",
+    "stack_data >=0.6.0",
+    "traitlets >=5.13.0"
+  ],
+  "constrains": [
+    "argcomplete >=3.0"
+  ],
+  "license": "BSD-3-Clause",
+  "timestamp": 1784577222000,
+  "size": 1284111,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\ATHARVA\\anaconda3\\pkgs\\ipython-9.15.0-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\ATHARVA\\anaconda3\\pkgs\\ipython-9.15.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/IPython/__init__.py",
+    "Lib/site-packages/IPython/__main__.py",
+    "Lib/site-packages/IPython/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/IPython/__pycache__/display.cpython-312.pyc",
+    "Lib/site-packages/IPython/__pycache__/paths.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__init__.py",
+    "Lib/site-packages/IPython/core/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/alias.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/application.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/async_helpers.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/autocall.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/builtin_trap.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/compilerop.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/completer.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/completerlib.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/crashhandler.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/debugger.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/debugger_backport.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/display.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/display_functions.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/display_trap.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/displayhook.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/displaypub.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/doctb.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/error.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/events.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/extensions.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/formatters.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/getipython.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/guarded_eval.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/history.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/historyapp.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/hooks.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/inputtransformer2.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/interactiveshell.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/kitty.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/latex_symbols.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/logger.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/macro.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/magic.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/magic_arguments.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/oinspect.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/page.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/payload.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/payloadpage.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/prefilter.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/profileapp.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/profiledir.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/pylabtools.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/release.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/shellapp.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/splitinput.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/tbtools.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/tips.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/ultratb.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/__pycache__/usage.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/alias.py",
+    "Lib/site-packages/IPython/core/application.py",
+    "Lib/site-packages/IPython/core/async_helpers.py",
+    "Lib/site-packages/IPython/core/autocall.py",
+    "Lib/site-packages/IPython/core/builtin_trap.py",
+    "Lib/site-packages/IPython/core/compilerop.py",
+    "Lib/site-packages/IPython/core/completer.py",
+    "Lib/site-packages/IPython/core/completerlib.py",
+    "Lib/site-packages/IPython/core/crashhandler.py",
+    "Lib/site-packages/IPython/core/debugger.py",
+    "Lib/site-packages/IPython/core/debugger_backport.py",
+    "Lib/site-packages/IPython/core/display.py",
+    "Lib/site-packages/IPython/core/display_functions.py",
+    "Lib/site-packages/IPython/core/display_trap.py",
+    "Lib/site-packages/IPython/core/displayhook.py",
+    "Lib/site-packages/IPython/core/displaypub.py",
+    "Lib/site-packages/IPython/core/doctb.py",
+    "Lib/site-packages/IPython/core/error.py",
+    "Lib/site-packages/IPython/core/events.py",
+    "Lib/site-packages/IPython/core/extensions.py",
+    "Lib/site-packages/IPython/core/formatters.py",
+    "Lib/site-packages/IPython/core/getipython.py",
+    "Lib/site-packages/IPython/core/guarded_eval.py",
+    "Lib/site-packages/IPython/core/history.py",
+    "Lib/site-packages/IPython/core/historyapp.py",
+    "Lib/site-packages/IPython/core/hooks.py",
+    "Lib/site-packages/IPython/core/inputtransformer2.py",
+    "Lib/site-packages/IPython/core/interactiveshell.py",
+    "Lib/site-packages/IPython/core/kitty.py",
+    "Lib/site-packages/IPython/core/latex_symbols.py",
+    "Lib/site-packages/IPython/core/logger.py",
+    "Lib/site-packages/IPython/core/macro.py",
+    "Lib/site-packages/IPython/core/magic.py",
+    "Lib/site-packages/IPython/core/magic_arguments.py",
+    "Lib/site-packages/IPython/core/magics/__init__.py",
+    "Lib/site-packages/IPython/core/magics/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/ast_mod.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/auto.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/basic.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/code.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/config.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/display.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/execution.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/extension.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/history.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/logging.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/namespace.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/osm.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/packaging.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/pylab.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/__pycache__/script.cpython-312.pyc",
+    "Lib/site-packages/IPython/core/magics/ast_mod.py",
+    "Lib/site-packages/IPython/core/magics/auto.py",
+    "Lib/site-packages/IPython/core/magics/basic.py",
+    "Lib/site-packages/IPython/core/magics/code.py",
+    "Lib/site-packages/IPython/core/magics/config.py",
+    "Lib/site-packages/IPython/core/magics/display.py",
+    "Lib/site-packages/IPython/core/magics/execution.py",
+    "Lib/site-packages/IPython/core/magics/extension.py",
+    "Lib/site-packages/IPython/core/magics/history.py",
+    "Lib/site-packages/IPython/core/magics/logging.py",
+    "Lib/site-packages/IPython/core/magics/namespace.py",
+    "Lib/site-packages/IPython/core/magics/osm.py",
+    "Lib/site-packages/IPython/core/magics/packaging.py",
+    "Lib/site-packages/IPython/core/magics/pylab.py",
+    "Lib/site-packages/IPython/core/magics/script.py",
+    "Lib/site-packages/IPython/core/oinspect.py",
+    "Lib/site-packages/IPython/core/page.py",
+    "Lib/site-packages/IPython/core/payload.py",
+    "Lib/site-packages/IPython/core/payloadpage.py",
+    "Lib/site-packages/IPython/core/prefilter.py",
+    "Lib/site-packages/IPython/core/profile/README_STARTUP",
+    "Lib/site-packages/IPython/core/profileapp.py",
+    "Lib/site-packages/IPython/core/profiledir.py",
+    "Lib/site-packages/IPython/core/pylabtools.py",
+    "Lib/site-packages/IPython/core/release.py",
+    "Lib/site-packages/IPython/core/shellapp.py",
+    "Lib/site-packages/IPython/core/splitinput.py",
+    "Lib/site-packages/IPython/core/tbtools.py",
+    "Lib/site-packages/IPython/core/tips.py",
+    "Lib/site-packages/IPython/core/ultratb.py",
+    "Lib/site-packages/IPython/core/usage.py",
+    "Lib/site-packages/IPython/display.py",
+    "Lib/site-packages/IPython/extensions/__init__.py",
+    "Lib/site-packages/IPython/extensions/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/extensions/__pycache__/autoreload.cpython-312.pyc",
+    "Lib/site-packages/IPython/extensions/__pycache__/storemagic.cpython-312.pyc",
+    "Lib/site-packages/IPython/extensions/autoreload.py",
+    "Lib/site-packages/IPython/extensions/deduperreload/__init__.py",
+    "Lib/site-packages/IPython/extensions/deduperreload/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload.cpython-312.pyc",
+    "Lib/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload_patching.cpython-312.pyc",
+    "Lib/site-packages/IPython/extensions/deduperreload/deduperreload.py",
+    "Lib/site-packages/IPython/extensions/deduperreload/deduperreload_patching.py",
+    "Lib/site-packages/IPython/extensions/storemagic.py",
+    "Lib/site-packages/IPython/external/__init__.py",
+    "Lib/site-packages/IPython/external/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/external/__pycache__/pickleshare.cpython-312.pyc",
+    "Lib/site-packages/IPython/external/__pycache__/qt_for_kernel.cpython-312.pyc",
+    "Lib/site-packages/IPython/external/__pycache__/qt_loaders.cpython-312.pyc",
+    "Lib/site-packages/IPython/external/pickleshare.py",
+    "Lib/site-packages/IPython/external/qt_for_kernel.py",
+    "Lib/site-packages/IPython/external/qt_loaders.py",
+    "Lib/site-packages/IPython/lib/__init__.py",
+    "Lib/site-packages/IPython/lib/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/backgroundjobs.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/clipboard.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/deepreload.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/demo.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/display.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/editorhooks.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/guisupport.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/latextools.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/lexers.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/__pycache__/pretty.cpython-312.pyc",
+    "Lib/site-packages/IPython/lib/backgroundjobs.py",
+    "Lib/site-packages/IPython/lib/clipboard.py",
+    "Lib/site-packages/IPython/lib/deepreload.py",
+    "Lib/site-packages/IPython/lib/demo.py",
+    "Lib/site-packages/IPython/lib/display.py",
+    "Lib/site-packages/IPython/lib/editorhooks.py",
+    "Lib/site-packages/IPython/lib/guisupport.py",
+    "Lib/site-packages/IPython/lib/latextools.py",
+    "Lib/site-packages/IPython/lib/lexers.py",
+    "Lib/site-packages/IPython/lib/pretty.py",
+    "Lib/site-packages/IPython/paths.py",
+    "Lib/site-packages/IPython/py.typed",
+    "Lib/site-packages/IPython/sphinxext/__init__.py",
+    "Lib/site-packages/IPython/sphinxext/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/sphinxext/__pycache__/custom_doctests.cpython-312.pyc",
+    "Lib/site-packages/IPython/sphinxext/__pycache__/ipython_console_highlighting.cpython-312.pyc",
+    "Lib/site-packages/IPython/sphinxext/__pycache__/ipython_directive.cpython-312.pyc",
+    "Lib/site-packages/IPython/sphinxext/custom_doctests.py",
+    "Lib/site-packages/IPython/sphinxext/ipython_console_highlighting.py",
+    "Lib/site-packages/IPython/sphinxext/ipython_directive.py",
+    "Lib/site-packages/IPython/sphinxext/tests/__init__.py",
+    "Lib/site-packages/IPython/sphinxext/tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/sphinxext/tests/__pycache__/test_ansi_stripping.cpython-312.pyc",
+    "Lib/site-packages/IPython/sphinxext/tests/test_ansi_stripping.py",
+    "Lib/site-packages/IPython/terminal/__init__.py",
+    "Lib/site-packages/IPython/terminal/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/__pycache__/debugger.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/__pycache__/embed.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/__pycache__/interactiveshell.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/__pycache__/ipapp.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/__pycache__/magics.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/__pycache__/prompts.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/__pycache__/ptutils.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/debugger.py",
+    "Lib/site-packages/IPython/terminal/embed.py",
+    "Lib/site-packages/IPython/terminal/interactiveshell.py",
+    "Lib/site-packages/IPython/terminal/ipapp.py",
+    "Lib/site-packages/IPython/terminal/magics.py",
+    "Lib/site-packages/IPython/terminal/prompts.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__init__.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/asyncio.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/glut.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk3.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk4.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/osx.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/pyglet.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/qt.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/tk.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/wx.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/asyncio.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/glut.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/gtk.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/gtk3.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/gtk4.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/osx.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/pyglet.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/qt.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/tk.py",
+    "Lib/site-packages/IPython/terminal/pt_inputhooks/wx.py",
+    "Lib/site-packages/IPython/terminal/ptutils.py",
+    "Lib/site-packages/IPython/terminal/shortcuts/__init__.py",
+    "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/auto_match.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/auto_suggest.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/filters.cpython-312.pyc",
+    "Lib/site-packages/IPython/terminal/shortcuts/auto_match.py",
+    "Lib/site-packages/IPython/terminal/shortcuts/auto_suggest.py",
+    "Lib/site-packages/IPython/terminal/shortcuts/filters.py",
+    "Lib/site-packages/IPython/testing/__init__.py",
+    "Lib/site-packages/IPython/testing/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/__pycache__/decorators.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/__pycache__/globalipapp.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/__pycache__/ipunittest.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/__pycache__/skipdoctest.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/__pycache__/tools.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/decorators.py",
+    "Lib/site-packages/IPython/testing/globalipapp.py",
+    "Lib/site-packages/IPython/testing/ipunittest.py",
+    "Lib/site-packages/IPython/testing/plugin/__init__.py",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/dtexample.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/ipdoctest.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/pytest_ipdoctest.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/setup.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/simple.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/simplevars.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/test_ipdoctest.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/__pycache__/test_refs.cpython-312.pyc",
+    "Lib/site-packages/IPython/testing/plugin/dtexample.py",
+    "Lib/site-packages/IPython/testing/plugin/ipdoctest.py",
+    "Lib/site-packages/IPython/testing/plugin/pytest_ipdoctest.py",
+    "Lib/site-packages/IPython/testing/plugin/setup.py",
+    "Lib/site-packages/IPython/testing/plugin/simple.py",
+    "Lib/site-packages/IPython/testing/plugin/simplevars.py",
+    "Lib/site-packages/IPython/testing/plugin/test_combo.txt",
+    "Lib/site-packages/IPython/testing/plugin/test_example.txt",
+    "Lib/site-packages/IPython/testing/plugin/test_exampleip.txt",
+    "Lib/site-packages/IPython/testing/plugin/test_ipdoctest.py",
+    "Lib/site-packages/IPython/testing/plugin/test_refs.py",
+    "Lib/site-packages/IPython/testing/skipdoctest.py",
+    "Lib/site-packages/IPython/testing/tools.py",
+    "Lib/site-packages/IPython/utils/PyColorize.py",
+    "Lib/site-packages/IPython/utils/__init__.py",
+    "Lib/site-packages/IPython/utils/__pycache__/PyColorize.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/_process_cli.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/_process_common.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/_process_emscripten.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/_process_posix.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/_process_win32.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/_process_win32_controller.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/_sysinfo.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/capture.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/coloransi.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/contexts.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/data.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/decorators.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/dir2.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/docs.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/encoding.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/eventful.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/frame.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/generics.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/importstring.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/io.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/ipstruct.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/jsonutil.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/log.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/module_paths.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/openpy.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/path.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/process.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/py3compat.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/sentinel.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/strdispatch.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/sysinfo.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/syspathcontext.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/tempdir.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/terminal.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/text.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/timing.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/tokenutil.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/__pycache__/wildcard.cpython-312.pyc",
+    "Lib/site-packages/IPython/utils/_process_cli.py",
+    "Lib/site-packages/IPython/utils/_process_common.py",
+    "Lib/site-packages/IPython/utils/_process_emscripten.py",
+    "Lib/site-packages/IPython/utils/_process_posix.py",
+    "Lib/site-packages/IPython/utils/_process_win32.py",
+    "Lib/site-packages/IPython/utils/_process_win32_controller.py",
+    "Lib/site-packages/IPython/utils/_sysinfo.py",
+    "Lib/site-packages/IPython/utils/capture.py",
+    "Lib/site-packages/IPython/utils/coloransi.py",
+    "Lib/site-packages/IPython/utils/contexts.py",
+    "Lib/site-packages/IPython/utils/data.py",
+    "Lib/site-packages/IPython/utils/decorators.py",
+    "Lib/site-packages/IPython/utils/dir2.py",
+    "Lib/site-packages/IPython/utils/docs.py",
+    "Lib/site-packages/IPython/utils/encoding.py",
+    "Lib/site-packages/IPython/utils/eventful.py",
+    "Lib/site-packages/IPython/utils/frame.py",
+    "Lib/site-packages/IPython/utils/generics.py",
+    "Lib/site-packages/IPython/utils/importstring.py",
+    "Lib/site-packages/IPython/utils/io.py",
+    "Lib/site-packages/IPython/utils/ipstruct.py",
+    "Lib/site-packages/IPython/utils/jsonutil.py",
+    "Lib/site-packages/IPython/utils/log.py",
+    "Lib/site-packages/IPython/utils/module_paths.py",
+    "Lib/site-packages/IPython/utils/openpy.py",
+    "Lib/site-packages/IPython/utils/path.py",
+    "Lib/site-packages/IPython/utils/process.py",
+    "Lib/site-packages/IPython/utils/py3compat.py",
+    "Lib/site-packages/IPython/utils/sentinel.py",
+    "Lib/site-packages/IPython/utils/strdispatch.py",
+    "Lib/site-packages/IPython/utils/sysinfo.py",
+    "Lib/site-packages/IPython/utils/syspathcontext.py",
+    "Lib/site-packages/IPython/utils/tempdir.py",
+    "Lib/site-packages/IPython/utils/terminal.py",
+    "Lib/site-packages/IPython/utils/text.py",
+    "Lib/site-packages/IPython/utils/timing.py",
+    "Lib/site-packages/IPython/utils/tokenutil.py",
+    "Lib/site-packages/IPython/utils/wildcard.py",
+    "Lib/site-packages/ipython-9.15.0.dist-info/INSTALLER",
+    "Lib/site-packages/ipython-9.15.0.dist-info/METADATA",
+    "Lib/site-packages/ipython-9.15.0.dist-info/RECORD",
+    "Lib/site-packages/ipython-9.15.0.dist-info/REQUESTED",
+    "Lib/site-packages/ipython-9.15.0.dist-info/WHEEL",
+    "Lib/site-packages/ipython-9.15.0.dist-info/direct_url.json",
+    "Lib/site-packages/ipython-9.15.0.dist-info/entry_points.txt",
+    "Lib/site-packages/ipython-9.15.0.dist-info/licenses/COPYING.rst",
+    "Lib/site-packages/ipython-9.15.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/ipython-9.15.0.dist-info/top_level.txt",
+    "Scripts/ipython-script.py",
+    "Scripts/ipython.exe",
+    "Scripts/ipython3-script.py",
+    "Scripts/ipython3.exe",
+    "share/man/man1/ipython.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/IPython/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab5834daed7356156a4da91f5814be0f021f2175c4262d654e439e89d24e94d3",
+        "size_in_bytes": 5636,
+        "sha256_in_prefix": "ab5834daed7356156a4da91f5814be0f021f2175c4262d654e439e89d24e94d3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "e7903907eb1dda7b56537e97f40122a4a5a70ef14cf491526f814e942f210130",
+        "size_in_bytes": 489,
+        "sha256_in_prefix": "e7903907eb1dda7b56537e97f40122a4a5a70ef14cf491526f814e942f210130"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "892701b2458b6c0da20cb3a44370f32ee4fd7f478e7683e59e790474c1cadee0",
+        "size_in_bytes": 4846,
+        "sha256_in_prefix": "892701b2458b6c0da20cb3a44370f32ee4fd7f478e7683e59e790474c1cadee0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcda52b1d5899df7604c95a7dbb09e735c929176c2653621ef711bbbcdc56e7c",
+        "size_in_bytes": 258,
+        "sha256_in_prefix": "dcda52b1d5899df7604c95a7dbb09e735c929176c2653621ef711bbbcdc56e7c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/__pycache__/display.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "745d624150dddece0738ec94e9ef8cfc8fef54dad577e3d2b1dbcdcc60052f27",
+        "size_in_bytes": 844,
+        "sha256_in_prefix": "745d624150dddece0738ec94e9ef8cfc8fef54dad577e3d2b1dbcdcc60052f27"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/__pycache__/paths.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a159447927ea421610190a80b8ce4f9054f3a9ebec8c423af81bca2054a3351a",
+        "size_in_bytes": 5483,
+        "sha256_in_prefix": "a159447927ea421610190a80b8ce4f9054f3a9ebec8c423af81bca2054a3351a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "078aa1f5681a123573d51d1c63ebbf2cdaa39376b01c779cd59d967d96555bc8",
+        "size_in_bytes": 139,
+        "sha256_in_prefix": "078aa1f5681a123573d51d1c63ebbf2cdaa39376b01c779cd59d967d96555bc8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/alias.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "146de5e9cd27532f24a84ff781ae42c10b5b59bce807daed375a95be57c54fdf",
+        "size_in_bytes": 10490,
+        "sha256_in_prefix": "146de5e9cd27532f24a84ff781ae42c10b5b59bce807daed375a95be57c54fdf"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/application.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "79806b9373c78b7aa7a5c2fb994f826806aec2c3977244bd1a97df22ee73ee05",
+        "size_in_bytes": 22934,
+        "sha256_in_prefix": "79806b9373c78b7aa7a5c2fb994f826806aec2c3977244bd1a97df22ee73ee05"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/async_helpers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "062acec1e00e3565caf204c5cb40e2b8e9aba059f8916bdac367e0ee6ea327db",
+        "size_in_bytes": 6025,
+        "sha256_in_prefix": "062acec1e00e3565caf204c5cb40e2b8e9aba059f8916bdac367e0ee6ea327db"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/autocall.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0147a2df453fe78092b0bbc353af47489db178df6553259a2098882c5b3e33b",
+        "size_in_bytes": 2306,
+        "sha256_in_prefix": "d0147a2df453fe78092b0bbc353af47489db178df6553259a2098882c5b3e33b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/builtin_trap.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a8864ca854e8b3029ff21651c842fca2f302ef871b8d13c331050ad1f239df3",
+        "size_in_bytes": 3969,
+        "sha256_in_prefix": "4a8864ca854e8b3029ff21651c842fca2f302ef871b8d13c331050ad1f239df3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/compilerop.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "975af68ebcc775aefea844ea7a446c8179f0d5278a7342dfedc8e43a48462db7",
+        "size_in_bytes": 6148,
+        "sha256_in_prefix": "975af68ebcc775aefea844ea7a446c8179f0d5278a7342dfedc8e43a48462db7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/completer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "16c04dbf098b58b4ee7c5516522fe07f6736046c763e8f9d4e1c7052161d83f5",
+        "size_in_bytes": 138332,
+        "sha256_in_prefix": "16c04dbf098b58b4ee7c5516522fe07f6736046c763e8f9d4e1c7052161d83f5"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/completerlib.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "723bb06bc25b9990e8e2bf968fa3e9634fcdebb4039e994ddcc6213e90ba4f7f",
+        "size_in_bytes": 14265,
+        "sha256_in_prefix": "723bb06bc25b9990e8e2bf968fa3e9634fcdebb4039e994ddcc6213e90ba4f7f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/crashhandler.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca8ad8a8091a5e8c2de8dbdb43faa584bb53fcd13630e04a6982b0da6946defb",
+        "size_in_bytes": 9157,
+        "sha256_in_prefix": "ca8ad8a8091a5e8c2de8dbdb43faa584bb53fcd13630e04a6982b0da6946defb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/debugger.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7f4788e2a6664559830b85afa0c7799116990599e654d7ca1b91d0559fea060",
+        "size_in_bytes": 53480,
+        "sha256_in_prefix": "e7f4788e2a6664559830b85afa0c7799116990599e654d7ca1b91d0559fea060"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/debugger_backport.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "631ac95fe5162a3d72b4c287ee189b0d29e5f0a0d93b008e74f0f8d2b5b7b99f",
+        "size_in_bytes": 9001,
+        "sha256_in_prefix": "631ac95fe5162a3d72b4c287ee189b0d29e5f0a0d93b008e74f0f8d2b5b7b99f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/display.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5bec02ad48ba64b36f914523d5bb0f79f7f692f1c1a56726dddbc55802079254",
+        "size_in_bytes": 48870,
+        "sha256_in_prefix": "5bec02ad48ba64b36f914523d5bb0f79f7f692f1c1a56726dddbc55802079254"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/display_functions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3aa12ddcfd4ff6cc6f80b021f3c48b8adbdb818f75a78617290ef43143aac82",
+        "size_in_bytes": 12752,
+        "sha256_in_prefix": "a3aa12ddcfd4ff6cc6f80b021f3c48b8adbdb818f75a78617290ef43143aac82"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/display_trap.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f008760d37f547c3a4281e56e636b6e571c1d56aa250af29a82150c52cdd068",
+        "size_in_bytes": 2487,
+        "sha256_in_prefix": "0f008760d37f547c3a4281e56e636b6e571c1d56aa250af29a82150c52cdd068"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/displayhook.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "87daf52802e4c9d3cdc1bbb339c472ad50d3f89bfe5e88ff6d01f65e57ced824",
+        "size_in_bytes": 15627,
+        "sha256_in_prefix": "87daf52802e4c9d3cdc1bbb339c472ad50d3f89bfe5e88ff6d01f65e57ced824"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/displaypub.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b244d0b6812eb0c0ef00da0953b3b6b3a15d8912cbac191e3c1aae6064c782c",
+        "size_in_bytes": 8288,
+        "sha256_in_prefix": "1b244d0b6812eb0c0ef00da0953b3b6b3a15d8912cbac191e3c1aae6064c782c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/doctb.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7cae9d46f98d59d26cdba2f6654e55dd72521f9b5dcad1bf39117168a135ac2f",
+        "size_in_bytes": 16259,
+        "sha256_in_prefix": "7cae9d46f98d59d26cdba2f6654e55dd72521f9b5dcad1bf39117168a135ac2f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/error.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7c168b61271132aff622a69665d884ccdb197b6179f12e71318b613727a0017",
+        "size_in_bytes": 1753,
+        "sha256_in_prefix": "b7c168b61271132aff622a69665d884ccdb197b6179f12e71318b613727a0017"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/events.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "23616ca0bb1d2790e2451ac565666763e9964eca1b5dd97443b21b1e730f9031",
+        "size_in_bytes": 7080,
+        "sha256_in_prefix": "23616ca0bb1d2790e2451ac565666763e9964eca1b5dd97443b21b1e730f9031"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/extensions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cbdc96ec2820fc5eccc83bd928e3cb777219ce5734ec3be4882f8dae674f6c0",
+        "size_in_bytes": 6246,
+        "sha256_in_prefix": "0cbdc96ec2820fc5eccc83bd928e3cb777219ce5734ec3be4882f8dae674f6c0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/formatters.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "283b4c3fa23edc4a368982daab238576700e3650782754fb73747662602cb70a",
+        "size_in_bytes": 40782,
+        "sha256_in_prefix": "283b4c3fa23edc4a368982daab238576700e3650782754fb73747662602cb70a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/getipython.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "49c785da98824cd79ecd1b6c02d5918088bdfd25b2dbb23c73d66f1c4a1f62c6",
+        "size_in_bytes": 638,
+        "sha256_in_prefix": "49c785da98824cd79ecd1b6c02d5918088bdfd25b2dbb23c73d66f1c4a1f62c6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/guarded_eval.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f1433017692286c990af75fcf299d7fd519215b1f0c05eaebcdada4ec7d61b6",
+        "size_in_bytes": 65871,
+        "sha256_in_prefix": "1f1433017692286c990af75fcf299d7fd519215b1f0c05eaebcdada4ec7d61b6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/history.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b50dce41b485fa884561866661c50c56e0a009f2db39a4fc4e567c700c70fe5",
+        "size_in_bytes": 51597,
+        "sha256_in_prefix": "9b50dce41b485fa884561866661c50c56e0a009f2db39a4fc4e567c700c70fe5"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/historyapp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d02606704bc8fd68e07a56a3ee33f853df660ef06c20a613bd448a384fb6d595",
+        "size_in_bytes": 7791,
+        "sha256_in_prefix": "d02606704bc8fd68e07a56a3ee33f853df660ef06c20a613bd448a384fb6d595"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/hooks.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "383f42045b7c46165fc2c13eef7639fb7ab8d7fe084d4425d79ac535cb41766f",
+        "size_in_bytes": 5697,
+        "sha256_in_prefix": "383f42045b7c46165fc2c13eef7639fb7ab8d7fe084d4425d79ac535cb41766f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/inputtransformer2.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "00ad802c4eab3b80d9b77ca02b46fd664aa73d7a390289e2ed815ed1cedc672c",
+        "size_in_bytes": 37984,
+        "sha256_in_prefix": "00ad802c4eab3b80d9b77ca02b46fd664aa73d7a390289e2ed815ed1cedc672c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/interactiveshell.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a891186840e20b055ffc3bacef83f7c0c9e5294d57c30a2f26c8544221d69e4e",
+        "size_in_bytes": 157929,
+        "sha256_in_prefix": "a891186840e20b055ffc3bacef83f7c0c9e5294d57c30a2f26c8544221d69e4e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/kitty.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8d59a98b0d0cd003c553c557beb4fee5052b271996830806b7657be71b00f14",
+        "size_in_bytes": 2627,
+        "sha256_in_prefix": "a8d59a98b0d0cd003c553c557beb4fee5052b271996830806b7657be71b00f14"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/latex_symbols.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "04162a6d2681cb80648728407af121e6a76f5d9989a6fa07e8beb17264657b6c",
+        "size_in_bytes": 53936,
+        "sha256_in_prefix": "04162a6d2681cb80648728407af121e6a76f5d9989a6fa07e8beb17264657b6c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/logger.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "72861bde7bd20abaf1732066767d6e62f8681a6a957b38c08f86777348845466",
+        "size_in_bytes": 9129,
+        "sha256_in_prefix": "72861bde7bd20abaf1732066767d6e62f8681a6a957b38c08f86777348845466"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/macro.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "402a5eb3ce83c2be5c0259e414374e3b3da22f6fe068a07040add6d8684366fc",
+        "size_in_bytes": 2432,
+        "sha256_in_prefix": "402a5eb3ce83c2be5c0259e414374e3b3da22f6fe068a07040add6d8684366fc"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/magic.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e16400531310d2d273a700303353cab9e8d108440f4fc22682245c3d23726806",
+        "size_in_bytes": 29923,
+        "sha256_in_prefix": "e16400531310d2d273a700303353cab9e8d108440f4fc22682245c3d23726806"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/magic_arguments.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "02a9215798b2043673ad78c486b3c1abbd7b4624c168b88b5de542680f6b86b9",
+        "size_in_bytes": 11869,
+        "sha256_in_prefix": "02a9215798b2043673ad78c486b3c1abbd7b4624c168b88b5de542680f6b86b9"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/oinspect.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "475d5e6ae7d5cb0ae630308e1488a7ca14f0bc4370ab060e0c43b85101274334",
+        "size_in_bytes": 41937,
+        "sha256_in_prefix": "475d5e6ae7d5cb0ae630308e1488a7ca14f0bc4370ab060e0c43b85101274334"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/page.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c942c399be4a8ca655bf0a1930a96a61ee3a0ac19293b7dfd4f1b3ac8d4c56f",
+        "size_in_bytes": 12649,
+        "sha256_in_prefix": "0c942c399be4a8ca655bf0a1930a96a61ee3a0ac19293b7dfd4f1b3ac8d4c56f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/payload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "abe323ccf4055675f0ac3a49170528ef2271d84488cacbbf92844bad812dcf2e",
+        "size_in_bytes": 1780,
+        "sha256_in_prefix": "abe323ccf4055675f0ac3a49170528ef2271d84488cacbbf92844bad812dcf2e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/payloadpage.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b45af3f6553388394adfff1b1aa0c09d9df85f3641dcfdcc48cc8606e1475c8e",
+        "size_in_bytes": 1177,
+        "sha256_in_prefix": "b45af3f6553388394adfff1b1aa0c09d9df85f3641dcfdcc48cc8606e1475c8e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/prefilter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d22969479c8709e2a0d8fbd77bf023d242f1daf5b35de25b5dfa96133d24740",
+        "size_in_bytes": 28483,
+        "sha256_in_prefix": "5d22969479c8709e2a0d8fbd77bf023d242f1daf5b35de25b5dfa96133d24740"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/profileapp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ea4cbc3bdfec5e9fc2d53c2dedac5c213a6b850a23f7dd393593e21e598eeff",
+        "size_in_bytes": 13152,
+        "sha256_in_prefix": "0ea4cbc3bdfec5e9fc2d53c2dedac5c213a6b850a23f7dd393593e21e598eeff"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/profiledir.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3f70d5fb3551b322236d53918bbbda64a3df21dbb5df3eb669f3d60b8c81317",
+        "size_in_bytes": 11244,
+        "sha256_in_prefix": "a3f70d5fb3551b322236d53918bbbda64a3df21dbb5df3eb669f3d60b8c81317"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/pylabtools.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "61503dd5a1d5c15e0f0f7beaf9a8ab7f287c1d942b2c187337c5b9c1d91087fb",
+        "size_in_bytes": 16316,
+        "sha256_in_prefix": "61503dd5a1d5c15e0f0f7beaf9a8ab7f287c1d942b2c187337c5b9c1d91087fb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/release.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2320baf7ffe6843b1be38edffef88b12b0baf1ec9aa1df3eb5443f162c1c6798",
+        "size_in_bytes": 797,
+        "sha256_in_prefix": "2320baf7ffe6843b1be38edffef88b12b0baf1ec9aa1df3eb5443f162c1c6798"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/shellapp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d1d4247b35c74da4a83317d31b595152f28e51058ccc1eaaedf25ad1d1e484a",
+        "size_in_bytes": 24233,
+        "sha256_in_prefix": "0d1d4247b35c74da4a83317d31b595152f28e51058ccc1eaaedf25ad1d1e484a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/splitinput.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b2e886b447020cd01122fb3113f5f8c5f8bfb2c3f36fb47f409a911df11c208",
+        "size_in_bytes": 5491,
+        "sha256_in_prefix": "7b2e886b447020cd01122fb3113f5f8c5f8bfb2c3f36fb47f409a911df11c208"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/tbtools.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a223df49dbadae427ce33e6ec93d5190cf5918794b9d142945c3ca058aa9346b",
+        "size_in_bytes": 20284,
+        "sha256_in_prefix": "a223df49dbadae427ce33e6ec93d5190cf5918794b9d142945c3ca058aa9346b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/tips.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ed4043344998b6e804f495a0d9855a3d3e5a2443cf27f7e3e0ff27a5280b8b4",
+        "size_in_bytes": 4626,
+        "sha256_in_prefix": "8ed4043344998b6e804f495a0d9855a3d3e5a2443cf27f7e3e0ff27a5280b8b4"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/ultratb.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1337f61bbf7bc22676de6a412e778f8641687544c523265b689a5ca212301413",
+        "size_in_bytes": 49476,
+        "sha256_in_prefix": "1337f61bbf7bc22676de6a412e778f8641687544c523265b689a5ca212301413"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/__pycache__/usage.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b699624432644789e00214ada564e4c70e1a826871447dc0ddc214363157cab",
+        "size_in_bytes": 13462,
+        "sha256_in_prefix": "8b699624432644789e00214ada564e4c70e1a826871447dc0ddc214363157cab"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/alias.py",
+        "path_type": "hardlink",
+        "sha256": "2b8e566b12857c0bbb28fbca3595e73ffc5c680b232eb54c7f1d943a63c3ab03",
+        "size_in_bytes": 10242,
+        "sha256_in_prefix": "2b8e566b12857c0bbb28fbca3595e73ffc5c680b232eb54c7f1d943a63c3ab03"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/application.py",
+        "path_type": "hardlink",
+        "sha256": "73b9e468ef3bb7fc5fad1a344c753939025d36528fbe1e8ae1106ecaac328dd0",
+        "size_in_bytes": 19016,
+        "sha256_in_prefix": "73b9e468ef3bb7fc5fad1a344c753939025d36528fbe1e8ae1106ecaac328dd0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/async_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "7d8d2212c42bde405fa498daee9d2bc6c7cff7abebf28be8d304c442b1b688a8",
+        "size_in_bytes": 4097,
+        "sha256_in_prefix": "7d8d2212c42bde405fa498daee9d2bc6c7cff7abebf28be8d304c442b1b688a8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/autocall.py",
+        "path_type": "hardlink",
+        "sha256": "cf0eec88a735a1c6a00ae5e7e0eb93d28ed86f2652b96ddaee56b6d3800d464e",
+        "size_in_bytes": 1983,
+        "sha256_in_prefix": "cf0eec88a735a1c6a00ae5e7e0eb93d28ed86f2652b96ddaee56b6d3800d464e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/builtin_trap.py",
+        "path_type": "hardlink",
+        "sha256": "e0196cd71d5769fde819b8fa1855c4fbe1baa9994dabb018163a7fbf2bb9e69f",
+        "size_in_bytes": 3006,
+        "sha256_in_prefix": "e0196cd71d5769fde819b8fa1855c4fbe1baa9994dabb018163a7fbf2bb9e69f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/compilerop.py",
+        "path_type": "hardlink",
+        "sha256": "ea9cf5a48e17c7cbec9ef17b0476e660bd1a73df08fe7a82415accee03b3a29b",
+        "size_in_bytes": 7004,
+        "sha256_in_prefix": "ea9cf5a48e17c7cbec9ef17b0476e660bd1a73df08fe7a82415accee03b3a29b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/completer.py",
+        "path_type": "hardlink",
+        "sha256": "9ae58f524e9f15d2d7b5a5b22724712178b595aed89cc4bf2a25cc4e9fb363ad",
+        "size_in_bytes": 136724,
+        "sha256_in_prefix": "9ae58f524e9f15d2d7b5a5b22724712178b595aed89cc4bf2a25cc4e9fb363ad"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/completerlib.py",
+        "path_type": "hardlink",
+        "sha256": "0bfd6e1704787a2a88b1e98c45b96e310575589dea49f9c6c4ed353ec192a6bf",
+        "size_in_bytes": 12641,
+        "sha256_in_prefix": "0bfd6e1704787a2a88b1e98c45b96e310575589dea49f9c6c4ed353ec192a6bf"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/crashhandler.py",
+        "path_type": "hardlink",
+        "sha256": "f3e93223a68d92a6da07f94195b34a00e16fdf81c3042a4b82031f8aee282038",
+        "size_in_bytes": 8747,
+        "sha256_in_prefix": "f3e93223a68d92a6da07f94195b34a00e16fdf81c3042a4b82031f8aee282038"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/debugger.py",
+        "path_type": "hardlink",
+        "sha256": "cef67a339db8d89f4d07c83627651dfac011d14480513d46f832460014a45ac9",
+        "size_in_bytes": 48887,
+        "sha256_in_prefix": "cef67a339db8d89f4d07c83627651dfac011d14480513d46f832460014a45ac9"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/debugger_backport.py",
+        "path_type": "hardlink",
+        "sha256": "a8ff7ab556df1fbc2938522386e17215554cd732200866cfd40c90cce05fc36f",
+        "size_in_bytes": 8216,
+        "sha256_in_prefix": "a8ff7ab556df1fbc2938522386e17215554cd732200866cfd40c90cce05fc36f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/display.py",
+        "path_type": "hardlink",
+        "sha256": "752b296cbce420f07080e04544d5fe777ca4546fa6668a34dd50b326868d3a8e",
+        "size_in_bytes": 41093,
+        "sha256_in_prefix": "752b296cbce420f07080e04544d5fe777ca4546fa6668a34dd50b326868d3a8e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/display_functions.py",
+        "path_type": "hardlink",
+        "sha256": "b19ee2cd1531678cc1503ba9c1082ec455d43ad800f80c556bd73ea432209572",
+        "size_in_bytes": 12411,
+        "sha256_in_prefix": "b19ee2cd1531678cc1503ba9c1082ec455d43ad800f80c556bd73ea432209572"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/display_trap.py",
+        "path_type": "hardlink",
+        "sha256": "afd01e32a9652e2709bd8f097eb19340c932c73dfb413ed7fd1c305f1364ed1d",
+        "size_in_bytes": 2185,
+        "sha256_in_prefix": "afd01e32a9652e2709bd8f097eb19340c932c73dfb413ed7fd1c305f1364ed1d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/displayhook.py",
+        "path_type": "hardlink",
+        "sha256": "f5b1160141934bd8f1b05bc21bdd56c88ee223484f85a3f0fde7b8e4518c5812",
+        "size_in_bytes": 13266,
+        "sha256_in_prefix": "f5b1160141934bd8f1b05bc21bdd56c88ee223484f85a3f0fde7b8e4518c5812"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/displaypub.py",
+        "path_type": "hardlink",
+        "sha256": "5cc16b2510c08f47dec055336185c4eeafe105b226ee77d619461fe4d06d8513",
+        "size_in_bytes": 6859,
+        "sha256_in_prefix": "5cc16b2510c08f47dec055336185c4eeafe105b226ee77d619461fe4d06d8513"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/doctb.py",
+        "path_type": "hardlink",
+        "sha256": "5eaf55f2bd3f151e8b91001f506b8ebee12641ff7a0ec617a5a5d7ba79f90cfe",
+        "size_in_bytes": 15644,
+        "sha256_in_prefix": "5eaf55f2bd3f151e8b91001f506b8ebee12641ff7a0ec617a5a5d7ba79f90cfe"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/error.py",
+        "path_type": "hardlink",
+        "sha256": "94be563f7134b063569014d02f4bbbf79c0b409092ac309fdf6f1fb7c4df0a39",
+        "size_in_bytes": 1734,
+        "sha256_in_prefix": "94be563f7134b063569014d02f4bbbf79c0b409092ac309fdf6f1fb7c4df0a39"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/events.py",
+        "path_type": "hardlink",
+        "sha256": "adee884641bbde0d3752a567d866b24dccc21fdaa2aec8a54e422b620eee0168",
+        "size_in_bytes": 6016,
+        "sha256_in_prefix": "adee884641bbde0d3752a567d866b24dccc21fdaa2aec8a54e422b620eee0168"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "2a0a21362a3097bd56f95d1661758ac3b83eabce5037d73f171b6b689a043af6",
+        "size_in_bytes": 5020,
+        "sha256_in_prefix": "2a0a21362a3097bd56f95d1661758ac3b83eabce5037d73f171b6b689a043af6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "a8a5d3b069a986df081085cc9b9f00226ccb0b5e9ef9408ac7582d05fe9b28f7",
+        "size_in_bytes": 36507,
+        "sha256_in_prefix": "a8a5d3b069a986df081085cc9b9f00226ccb0b5e9ef9408ac7582d05fe9b28f7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/getipython.py",
+        "path_type": "hardlink",
+        "sha256": "4634f296df4dddcf00159f98e38d00f0ccb8b5f14280efa5564c8e2f4c683b34",
+        "size_in_bytes": 894,
+        "sha256_in_prefix": "4634f296df4dddcf00159f98e38d00f0ccb8b5f14280efa5564c8e2f4c683b34"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/guarded_eval.py",
+        "path_type": "hardlink",
+        "sha256": "84d6357bb98aa75f015c19df8277d54df0160436dadf6f7dfdee21375cb5d436",
+        "size_in_bytes": 57501,
+        "sha256_in_prefix": "84d6357bb98aa75f015c19df8277d54df0160436dadf6f7dfdee21375cb5d436"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/history.py",
+        "path_type": "hardlink",
+        "sha256": "e6f18f86ce64932f3eb471a3007ec6c04d3331aa306cf82bf3556a3a3881d871",
+        "size_in_bytes": 43218,
+        "sha256_in_prefix": "e6f18f86ce64932f3eb471a3007ec6c04d3331aa306cf82bf3556a3a3881d871"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/historyapp.py",
+        "path_type": "hardlink",
+        "sha256": "739746d34142a36a5be968d4454f66c0d7beb984b157a8ed5f8ab41422ca7beb",
+        "size_in_bytes": 6180,
+        "sha256_in_prefix": "739746d34142a36a5be968d4454f66c0d7beb984b157a8ed5f8ab41422ca7beb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "c4159366ac9cc598bdef28f4d4815cf92a0907357907bdc8a031db00094a5294",
+        "size_in_bytes": 5193,
+        "sha256_in_prefix": "c4159366ac9cc598bdef28f4d4815cf92a0907357907bdc8a031db00094a5294"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/inputtransformer2.py",
+        "path_type": "hardlink",
+        "sha256": "ed3f7010e0476548add8925dec7f0ab519be14ae4d920a1b744123a5be967e26",
+        "size_in_bytes": 32472,
+        "sha256_in_prefix": "ed3f7010e0476548add8925dec7f0ab519be14ae4d920a1b744123a5be967e26"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/interactiveshell.py",
+        "path_type": "hardlink",
+        "sha256": "61f29d420efb482a2c3b57aab2f5a26cccd3d46c51c101a4ad8bac00c3f5231e",
+        "size_in_bytes": 161965,
+        "sha256_in_prefix": "61f29d420efb482a2c3b57aab2f5a26cccd3d46c51c101a4ad8bac00c3f5231e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/kitty.py",
+        "path_type": "hardlink",
+        "sha256": "41b771c549176f022d7ad81b0e4e7a532e92adfd74336eb26b1db2708c4a8a3d",
+        "size_in_bytes": 2511,
+        "sha256_in_prefix": "41b771c549176f022d7ad81b0e4e7a532e92adfd74336eb26b1db2708c4a8a3d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/latex_symbols.py",
+        "path_type": "hardlink",
+        "sha256": "0f315e72fa96552b1d37bbd602ca749a56001d10d029f646026bee0d487433eb",
+        "size_in_bytes": 30127,
+        "sha256_in_prefix": "0f315e72fa96552b1d37bbd602ca749a56001d10d029f646026bee0d487433eb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/logger.py",
+        "path_type": "hardlink",
+        "sha256": "2307b8c4a326c4476f4b01d83cc7ec4d692675aa950a0bd94f7477237a939ab5",
+        "size_in_bytes": 8436,
+        "sha256_in_prefix": "2307b8c4a326c4476f4b01d83cc7ec4d692675aa950a0bd94f7477237a939ab5"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/macro.py",
+        "path_type": "hardlink",
+        "sha256": "3a1bd758d84b7b7f77ac8db04e93206d45475929e60bfc9c1e262acea4875d95",
+        "size_in_bytes": 1726,
+        "sha256_in_prefix": "3a1bd758d84b7b7f77ac8db04e93206d45475929e60bfc9c1e262acea4875d95"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magic.py",
+        "path_type": "hardlink",
+        "sha256": "dbd3d867184fdb833681ca71cca41b6440fa96873a65da4f3ec2f8936bd875a6",
+        "size_in_bytes": 30889,
+        "sha256_in_prefix": "dbd3d867184fdb833681ca71cca41b6440fa96873a65da4f3ec2f8936bd875a6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magic_arguments.py",
+        "path_type": "hardlink",
+        "sha256": "776ecc7a926a1755cc136ef1fce9723c3f8b7f741fc7afe7c77631e3f8dbc297",
+        "size_in_bytes": 9841,
+        "sha256_in_prefix": "776ecc7a926a1755cc136ef1fce9723c3f8b7f741fc7afe7c77631e3f8dbc297"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a6477e51fce30c6a79507b852a3c35f76bd99e28294cff5fb57cc6de82dd892f",
+        "size_in_bytes": 1619,
+        "sha256_in_prefix": "a6477e51fce30c6a79507b852a3c35f76bd99e28294cff5fb57cc6de82dd892f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d92e3588e1ba75997b246d2e3914123a2f8ef22c2e603e46d42bef32b9cf69bb",
+        "size_in_bytes": 1429,
+        "sha256_in_prefix": "d92e3588e1ba75997b246d2e3914123a2f8ef22c2e603e46d42bef32b9cf69bb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/ast_mod.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1cce188d8281071f7157aa738b555408cca4b76b9810fa1aa340e0ee6457902",
+        "size_in_bytes": 13189,
+        "sha256_in_prefix": "e1cce188d8281071f7157aa738b555408cca4b76b9810fa1aa340e0ee6457902"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/auto.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2b847e66bbca5a1d56d4da4d1739145920a41d4672c6c15fe70e5fd6feb75ec",
+        "size_in_bytes": 5338,
+        "sha256_in_prefix": "c2b847e66bbca5a1d56d4da4d1739145920a41d4672c6c15fe70e5fd6feb75ec"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/basic.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9bf95357a4c789b2d5828b2dc3136b310c4cf1b2a854db628d0521f6ca0bae7",
+        "size_in_bytes": 32327,
+        "sha256_in_prefix": "b9bf95357a4c789b2d5828b2dc3136b310c4cf1b2a854db628d0521f6ca0bae7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/code.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3e68212a1771951fac8f52911291740f1f1dc789eaf5210d39766050bfcd8f0",
+        "size_in_bytes": 29013,
+        "sha256_in_prefix": "e3e68212a1771951fac8f52911291740f1f1dc789eaf5210d39766050bfcd8f0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/config.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "50e22f9c484f584c369cd1b7745cc27b7493d7fe801d124d785c74d29adeba04",
+        "size_in_bytes": 5038,
+        "sha256_in_prefix": "50e22f9c484f584c369cd1b7745cc27b7493d7fe801d124d785c74d29adeba04"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/display.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dba007a292fa931a279eebdec90a6c26dc7407cf104b147c0c9c3cbc16dadc6",
+        "size_in_bytes": 3629,
+        "sha256_in_prefix": "5dba007a292fa931a279eebdec90a6c26dc7407cf104b147c0c9c3cbc16dadc6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/execution.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bac33bd6b9e118801bea06f097d2957f43645ded03dd92de6d75af20ccda1d5",
+        "size_in_bytes": 68108,
+        "sha256_in_prefix": "9bac33bd6b9e118801bea06f097d2957f43645ded03dd92de6d75af20ccda1d5"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/extension.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "aef9697e4d92a2716ef1132d99d17bfa1bc9693262d98df0969dc3caeb05a702",
+        "size_in_bytes": 2553,
+        "sha256_in_prefix": "aef9697e4d92a2716ef1132d99d17bfa1bc9693262d98df0969dc3caeb05a702"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/history.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "34ffc67fa64eb0c4f7aac31da50df6f4d335127d8af2fc8231143c635b760996",
+        "size_in_bytes": 13698,
+        "sha256_in_prefix": "34ffc67fa64eb0c4f7aac31da50df6f4d335127d8af2fc8231143c635b760996"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/logging.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "77208575550d69e1a1705003dc9963b252be114947eb2a0a4634f33882eaea91",
+        "size_in_bytes": 7016,
+        "sha256_in_prefix": "77208575550d69e1a1705003dc9963b252be114947eb2a0a4634f33882eaea91"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/namespace.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e60c473a261ebf9d683b32a351f230fd2b282cdf43ccaaf158c838841f0cd756",
+        "size_in_bytes": 26675,
+        "sha256_in_prefix": "e60c473a261ebf9d683b32a351f230fd2b282cdf43ccaaf158c838841f0cd756"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/osm.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd5cce4750c1c278b8138ead1c0255df393587b64a0185de0230b3417fb7462e",
+        "size_in_bytes": 36139,
+        "sha256_in_prefix": "dd5cce4750c1c278b8138ead1c0255df393587b64a0185de0230b3417fb7462e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/packaging.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3da247d6663078ec40fc8657a47123fb21535a02d64e04a6342d0cdf4c8d0c71",
+        "size_in_bytes": 6915,
+        "sha256_in_prefix": "3da247d6663078ec40fc8657a47123fb21535a02d64e04a6342d0cdf4c8d0c71"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/pylab.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a74b588eef638a850b3cbcc11ef7c555ff5218a75111eed11a9eeedc4e3bf3c2",
+        "size_in_bytes": 6894,
+        "sha256_in_prefix": "a74b588eef638a850b3cbcc11ef7c555ff5218a75111eed11a9eeedc4e3bf3c2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/__pycache__/script.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb41ceb8e7fe66517e8b004e3f5bbf9983fe655d0dbd1d592e09a7b3093e5625",
+        "size_in_bytes": 18046,
+        "sha256_in_prefix": "eb41ceb8e7fe66517e8b004e3f5bbf9983fe655d0dbd1d592e09a7b3093e5625"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/ast_mod.py",
+        "path_type": "hardlink",
+        "sha256": "d3a3a844eed9ec9cdf73e71f95ff19df0caa175edf918bfa7c9fcdc3877b7901",
+        "size_in_bytes": 10295,
+        "sha256_in_prefix": "d3a3a844eed9ec9cdf73e71f95ff19df0caa175edf918bfa7c9fcdc3877b7901"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/auto.py",
+        "path_type": "hardlink",
+        "sha256": "c84a2e223b10e8b99f4847cdbe465b366343165d7d28b46768972261d47b6b50",
+        "size_in_bytes": 4816,
+        "sha256_in_prefix": "c84a2e223b10e8b99f4847cdbe465b366343165d7d28b46768972261d47b6b50"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/basic.py",
+        "path_type": "hardlink",
+        "sha256": "1a881471166cc2cda03fce2fd1e30680b0932b9c6af7a6ba281b857ee0fa33bb",
+        "size_in_bytes": 27185,
+        "sha256_in_prefix": "1a881471166cc2cda03fce2fd1e30680b0932b9c6af7a6ba281b857ee0fa33bb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/code.py",
+        "path_type": "hardlink",
+        "sha256": "87f761a3d9e23efb5ffc8a683997f91800fa0986d3d04406b1f2dfbadc97fbb2",
+        "size_in_bytes": 28144,
+        "sha256_in_prefix": "87f761a3d9e23efb5ffc8a683997f91800fa0986d3d04406b1f2dfbadc97fbb2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/config.py",
+        "path_type": "hardlink",
+        "sha256": "4012f9b98ee6f90ec2e3a98edead588a8f6cef7c354e723dcbffe3e44fa3e386",
+        "size_in_bytes": 4881,
+        "sha256_in_prefix": "4012f9b98ee6f90ec2e3a98edead588a8f6cef7c354e723dcbffe3e44fa3e386"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/display.py",
+        "path_type": "hardlink",
+        "sha256": "49346aeba1a567072f1720716e4aac95c9693ffb3d2e7a83d1ec3d6774b8f89a",
+        "size_in_bytes": 3130,
+        "sha256_in_prefix": "49346aeba1a567072f1720716e4aac95c9693ffb3d2e7a83d1ec3d6774b8f89a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/execution.py",
+        "path_type": "hardlink",
+        "sha256": "7526d943c7ed2eda537b2714efccb7e12bc9cff6ada07ddad1173b25c0620cc3",
+        "size_in_bytes": 64385,
+        "sha256_in_prefix": "7526d943c7ed2eda537b2714efccb7e12bc9cff6ada07ddad1173b25c0620cc3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/extension.py",
+        "path_type": "hardlink",
+        "sha256": "263e8e96433bd4f4b48f51df10c0dcfa3536131c28f457ff2b49c3edefd6e0dd",
+        "size_in_bytes": 2477,
+        "sha256_in_prefix": "263e8e96433bd4f4b48f51df10c0dcfa3536131c28f457ff2b49c3edefd6e0dd"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/history.py",
+        "path_type": "hardlink",
+        "sha256": "9dfe16671176b43f3efb802f00bc840ca63858ca3f48593562aad347e2f9e314",
+        "size_in_bytes": 13293,
+        "sha256_in_prefix": "9dfe16671176b43f3efb802f00bc840ca63858ca3f48593562aad347e2f9e314"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/logging.py",
+        "path_type": "hardlink",
+        "sha256": "56e0e2179419ae0cd34fb2ebd4d924302b54335107a060b0da96252ac4907384",
+        "size_in_bytes": 6867,
+        "sha256_in_prefix": "56e0e2179419ae0cd34fb2ebd4d924302b54335107a060b0da96252ac4907384"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "068e2c72429a5e971514b20818bddf6568834470de314d4b1ab1cde1976f24db",
+        "size_in_bytes": 25293,
+        "sha256_in_prefix": "068e2c72429a5e971514b20818bddf6568834470de314d4b1ab1cde1976f24db"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/osm.py",
+        "path_type": "hardlink",
+        "sha256": "98d947052f1910c7faf3b9c3a4b1982a3e9a0be8bfafb77d8944c52b0e96b58e",
+        "size_in_bytes": 30695,
+        "sha256_in_prefix": "98d947052f1910c7faf3b9c3a4b1982a3e9a0be8bfafb77d8944c52b0e96b58e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/packaging.py",
+        "path_type": "hardlink",
+        "sha256": "e66da9b756e4a2c31d890c41e3a843743e0a8ac7cf26936779b0aa327ca0a1d1",
+        "size_in_bytes": 6030,
+        "sha256_in_prefix": "e66da9b756e4a2c31d890c41e3a843743e0a8ac7cf26936779b0aa327ca0a1d1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/pylab.py",
+        "path_type": "hardlink",
+        "sha256": "04145ccd9d24868641e4d3e2a60bd5b4e598a5d90b6ad07d990158cf283ebe98",
+        "size_in_bytes": 6624,
+        "sha256_in_prefix": "04145ccd9d24868641e4d3e2a60bd5b4e598a5d90b6ad07d990158cf283ebe98"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/magics/script.py",
+        "path_type": "hardlink",
+        "sha256": "58dbed632e2c1e63bb8497adfebb7d72ede2266795a177d0d7c48ccadb58acf1",
+        "size_in_bytes": 13706,
+        "sha256_in_prefix": "58dbed632e2c1e63bb8497adfebb7d72ede2266795a177d0d7c48ccadb58acf1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/oinspect.py",
+        "path_type": "hardlink",
+        "sha256": "e25283fada61733826e51dcaccddbd1c8a9f7984611d867355222d3ea5ab302c",
+        "size_in_bytes": 40342,
+        "sha256_in_prefix": "e25283fada61733826e51dcaccddbd1c8a9f7984611d867355222d3ea5ab302c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/page.py",
+        "path_type": "hardlink",
+        "sha256": "3fc0e6a3432352aef50c49c83ccfe4692199a0a4da3e4ae4e2c52e33823a1c30",
+        "size_in_bytes": 11788,
+        "sha256_in_prefix": "3fc0e6a3432352aef50c49c83ccfe4692199a0a4da3e4ae4e2c52e33823a1c30"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/payload.py",
+        "path_type": "hardlink",
+        "sha256": "b877301b90219b77e7cf676c20a6f360afe51ce8a5a9f7a7d088507df39441b1",
+        "size_in_bytes": 1763,
+        "sha256_in_prefix": "b877301b90219b77e7cf676c20a6f360afe51ce8a5a9f7a7d088507df39441b1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/payloadpage.py",
+        "path_type": "hardlink",
+        "sha256": "c46cf83aff36fb496684a48894cfa4c886b9d023a4fa88c1eed5cb9062119cfc",
+        "size_in_bytes": 1177,
+        "sha256_in_prefix": "c46cf83aff36fb496684a48894cfa4c886b9d023a4fa88c1eed5cb9062119cfc"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/prefilter.py",
+        "path_type": "hardlink",
+        "sha256": "272d1216d91b11effe23d5ebe31245a6b68ff85abc148053f5f984d2deb18502",
+        "size_in_bytes": 25779,
+        "sha256_in_prefix": "272d1216d91b11effe23d5ebe31245a6b68ff85abc148053f5f984d2deb18502"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/profile/README_STARTUP",
+        "path_type": "hardlink",
+        "sha256": "638ec6b584245b2ea977392aca550d2fa7814993142111b04f15cf505fc10417",
+        "size_in_bytes": 371,
+        "sha256_in_prefix": "638ec6b584245b2ea977392aca550d2fa7814993142111b04f15cf505fc10417"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/profileapp.py",
+        "path_type": "hardlink",
+        "sha256": "6c53052327a1c5e17da4352dc70ffa0f76f49f17aab2ea4a4deed7847ec63247",
+        "size_in_bytes": 10711,
+        "sha256_in_prefix": "6c53052327a1c5e17da4352dc70ffa0f76f49f17aab2ea4a4deed7847ec63247"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/profiledir.py",
+        "path_type": "hardlink",
+        "sha256": "faf8ce6b523f51a8cc6496e5251617875e98d11680527e5adacc1006cc36a845",
+        "size_in_bytes": 8459,
+        "sha256_in_prefix": "faf8ce6b523f51a8cc6496e5251617875e98d11680527e5adacc1006cc36a845"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/pylabtools.py",
+        "path_type": "hardlink",
+        "sha256": "afbd8d408859016f512f5c3d59601600c6d8a180bc29f68634a07d2416cc83be",
+        "size_in_bytes": 17296,
+        "sha256_in_prefix": "afbd8d408859016f512f5c3d59601600c6d8a180bc29f68634a07d2416cc83be"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/release.py",
+        "path_type": "hardlink",
+        "sha256": "8c8fc98d396ff1284ad2ec143c0cbc8a230c5b4b3896eaa9e9e2d060386cebc5",
+        "size_in_bytes": 1506,
+        "sha256_in_prefix": "8c8fc98d396ff1284ad2ec143c0cbc8a230c5b4b3896eaa9e9e2d060386cebc5"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/shellapp.py",
+        "path_type": "hardlink",
+        "sha256": "7e6f1b19fdabdae30bda05e039ac00413198cdd0de2a5ec4c6494e66558133a6",
+        "size_in_bytes": 19501,
+        "sha256_in_prefix": "7e6f1b19fdabdae30bda05e039ac00413198cdd0de2a5ec4c6494e66558133a6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/splitinput.py",
+        "path_type": "hardlink",
+        "sha256": "e9778fa81a598ea444e94e8fae6e164b395f70687291ab3440325af969a1a3f0",
+        "size_in_bytes": 4998,
+        "sha256_in_prefix": "e9778fa81a598ea444e94e8fae6e164b395f70687291ab3440325af969a1a3f0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/tbtools.py",
+        "path_type": "hardlink",
+        "sha256": "ecbb5978b95f3d3a26546e93bd811582f394056bb2c13e808bccbcfc2ef25b77",
+        "size_in_bytes": 16913,
+        "sha256_in_prefix": "ecbb5978b95f3d3a26546e93bd811582f394056bb2c13e808bccbcfc2ef25b77"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/tips.py",
+        "path_type": "hardlink",
+        "sha256": "c06fbcb2e4a1e35249025a3819dc4f985dc06e725ee8ebf0a838310c8c64e9a6",
+        "size_in_bytes": 6647,
+        "sha256_in_prefix": "c06fbcb2e4a1e35249025a3819dc4f985dc06e725ee8ebf0a838310c8c64e9a6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/ultratb.py",
+        "path_type": "hardlink",
+        "sha256": "46ccd047e3ff4ddeb0ab68378e139931fa85fd1977061136fcdf1b742b4666ea",
+        "size_in_bytes": 50205,
+        "sha256_in_prefix": "46ccd047e3ff4ddeb0ab68378e139931fa85fd1977061136fcdf1b742b4666ea"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/core/usage.py",
+        "path_type": "hardlink",
+        "sha256": "a3129557f83dfbb672c0fbe0c01b7f92c219f953c096275541f76d0213cf2550",
+        "size_in_bytes": 13539,
+        "sha256_in_prefix": "a3129557f83dfbb672c0fbe0c01b7f92c219f953c096275541f76d0213cf2550"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/display.py",
+        "path_type": "hardlink",
+        "sha256": "3d9dfe209d693d71a54e5a4987463f0749e16455960382cc38411ef6c4aac71f",
+        "size_in_bytes": 1392,
+        "sha256_in_prefix": "3d9dfe209d693d71a54e5a4987463f0749e16455960382cc38411ef6c4aac71f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "578bd296515dd7c09552f0d36d72d8a9fc131663d7522419182b392d7d889621",
+        "size_in_bytes": 78,
+        "sha256_in_prefix": "578bd296515dd7c09552f0d36d72d8a9fc131663d7522419182b392d7d889621"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ecd0dccc290e500816df17b94b2ba01ce8b41afedfbf4bb186068acc5800d79",
+        "size_in_bytes": 207,
+        "sha256_in_prefix": "3ecd0dccc290e500816df17b94b2ba01ce8b41afedfbf4bb186068acc5800d79"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/__pycache__/autoreload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "37069c55f148f60add97e22b6907021d445a9466f43bb2c0b1ea1cecf80c8e06",
+        "size_in_bytes": 33882,
+        "sha256_in_prefix": "37069c55f148f60add97e22b6907021d445a9466f43bb2c0b1ea1cecf80c8e06"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/__pycache__/storemagic.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e4aca616f3f64bde6dcc89113de24df0142242cbd5360f90c943cecd616cd21",
+        "size_in_bytes": 10059,
+        "sha256_in_prefix": "4e4aca616f3f64bde6dcc89113de24df0142242cbd5360f90c943cecd616cd21"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/autoreload.py",
+        "path_type": "hardlink",
+        "sha256": "2b19ac1c66b2cd8d8d711d740f2325920b8457fc622477d7fe5e96bfe71dbb8c",
+        "size_in_bytes": 31950,
+        "sha256_in_prefix": "2b19ac1c66b2cd8d8d711d740f2325920b8457fc622477d7fe5e96bfe71dbb8c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/deduperreload/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/deduperreload/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "86aef496b90071f1baec71f90dfe1b4d38d54911a6614d5193c2aa9b6b0c7fdc",
+        "size_in_bytes": 159,
+        "sha256_in_prefix": "86aef496b90071f1baec71f90dfe1b4d38d54911a6614d5193c2aa9b6b0c7fdc"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3433b35796677fd98b9cbf662fd0db534c8874b99174a13e01940e02e2b02829",
+        "size_in_bytes": 33195,
+        "sha256_in_prefix": "3433b35796677fd98b9cbf662fd0db534c8874b99174a13e01940e02e2b02829"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload_patching.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e030668f195943905a66f2611d37778b48f5be2f4d32070e8d5ed3221a77176e",
+        "size_in_bytes": 6688,
+        "sha256_in_prefix": "e030668f195943905a66f2611d37778b48f5be2f4d32070e8d5ed3221a77176e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/deduperreload/deduperreload.py",
+        "path_type": "hardlink",
+        "sha256": "32dc37ee492f294889887bb1adfd90da00391847df5f857da4d05e07c6a65314",
+        "size_in_bytes": 26141,
+        "sha256_in_prefix": "32dc37ee492f294889887bb1adfd90da00391847df5f857da4d05e07c6a65314"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/deduperreload/deduperreload_patching.py",
+        "path_type": "hardlink",
+        "sha256": "311786fb193d5f746f935c49966c1a0a76236ba25e9a55013705ddf9a6dd4c6f",
+        "size_in_bytes": 4985,
+        "sha256_in_prefix": "311786fb193d5f746f935c49966c1a0a76236ba25e9a55013705ddf9a6dd4c6f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/extensions/storemagic.py",
+        "path_type": "hardlink",
+        "sha256": "b61b3c3cbb4699864061a89b46e4b541eb4b9b55eed6ca321b07a10636b20728",
+        "size_in_bytes": 8168,
+        "sha256_in_prefix": "b61b3c3cbb4699864061a89b46e4b541eb4b9b55eed6ca321b07a10636b20728"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f844076ee52705ed514b5fc2c1a2c6ccd49942c089b2bc475bfaf5e6c9af556d",
+        "size_in_bytes": 126,
+        "sha256_in_prefix": "f844076ee52705ed514b5fc2c1a2c6ccd49942c089b2bc475bfaf5e6c9af556d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8885dc0761a816f646f418c3a54df6a77aee4722e2a726bdd1174caa0e4c6d29",
+        "size_in_bytes": 344,
+        "sha256_in_prefix": "8885dc0761a816f646f418c3a54df6a77aee4722e2a726bdd1174caa0e4c6d29"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/__pycache__/pickleshare.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "45ab85624d1d6eef79dcf887975cff1a86035d5094875c1508d25ddf2eb3a764",
+        "size_in_bytes": 13182,
+        "sha256_in_prefix": "45ab85624d1d6eef79dcf887975cff1a86035d5094875c1508d25ddf2eb3a764"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/__pycache__/qt_for_kernel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b43f41a9cbd38e036b7944569b24017adf1e1e040c548e4827bec4b647ecb101",
+        "size_in_bytes": 3633,
+        "sha256_in_prefix": "b43f41a9cbd38e036b7944569b24017adf1e1e040c548e4827bec4b647ecb101"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/__pycache__/qt_loaders.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c1c926aee88800f0aa1bc039af95d7667e2dccfc12a07fa535cc62712deeac0",
+        "size_in_bytes": 14158,
+        "sha256_in_prefix": "6c1c926aee88800f0aa1bc039af95d7667e2dccfc12a07fa535cc62712deeac0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/pickleshare.py",
+        "path_type": "hardlink",
+        "sha256": "4f14ccb8ab11053260deb8720becf881345c7f87c5e44b5315b0ad940dc1746f",
+        "size_in_bytes": 8827,
+        "sha256_in_prefix": "4f14ccb8ab11053260deb8720becf881345c7f87c5e44b5315b0ad940dc1746f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/qt_for_kernel.py",
+        "path_type": "hardlink",
+        "sha256": "44e2df37e35c03f87e66066c9bda415b5cb9ec8fe0c6726639da51c2fa70f030",
+        "size_in_bytes": 3442,
+        "sha256_in_prefix": "44e2df37e35c03f87e66066c9bda415b5cb9ec8fe0c6726639da51c2fa70f030"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/external/qt_loaders.py",
+        "path_type": "hardlink",
+        "sha256": "df29d8bc413e8ee33cdd746aefeead7fe9ee1ecc0a9929fbbd1ee111ba64fa96",
+        "size_in_bytes": 11863,
+        "sha256_in_prefix": "df29d8bc413e8ee33cdd746aefeead7fe9ee1ecc0a9929fbbd1ee111ba64fa96"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0a3fb8da0ac63ac1ba1b3f7beacb5a7242b3f7e212a052b5412600982a27a854",
+        "size_in_bytes": 411,
+        "sha256_in_prefix": "0a3fb8da0ac63ac1ba1b3f7beacb5a7242b3f7e212a052b5412600982a27a854"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "87a682efa4c71421edc218d17edc2ee7d763374468e099cace7cacd6c452f4f8",
+        "size_in_bytes": 187,
+        "sha256_in_prefix": "87a682efa4c71421edc218d17edc2ee7d763374468e099cace7cacd6c452f4f8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/backgroundjobs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1414ae9279bff5398acd860b6404ff2d675f23bc3229bc2108b3956a70f71c3a",
+        "size_in_bytes": 21353,
+        "sha256_in_prefix": "1414ae9279bff5398acd860b6404ff2d675f23bc3229bc2108b3956a70f71c3a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/clipboard.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7907d25b1ad340e86e12b27d43f6b719866038ea4d4f6624d574f938f798cb37",
+        "size_in_bytes": 4910,
+        "sha256_in_prefix": "7907d25b1ad340e86e12b27d43f6b719866038ea4d4f6624d574f938f798cb37"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/deepreload.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cefb064778f31745094a16d216ce0403de12c8832e86468b5ef8842fc34f3e9",
+        "size_in_bytes": 9087,
+        "sha256_in_prefix": "1cefb064778f31745094a16d216ce0403de12c8832e86468b5ef8842fc34f3e9"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/demo.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e983fac342de80e5f8f3e33240b678c769e7b8c3c481dac3b413700ea617fb2",
+        "size_in_bytes": 29072,
+        "sha256_in_prefix": "1e983fac342de80e5f8f3e33240b678c769e7b8c3c481dac3b413700ea617fb2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/display.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f411412c08cc7a123fa7e0910885c1113f5e5e790802ba564b0cac1e978a8f7",
+        "size_in_bytes": 29229,
+        "sha256_in_prefix": "3f411412c08cc7a123fa7e0910885c1113f5e5e790802ba564b0cac1e978a8f7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/editorhooks.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c926c4b5fec3ba9ebf1774c73950010885e46f184c74bb141b706efae5ea174d",
+        "size_in_bytes": 4928,
+        "sha256_in_prefix": "c926c4b5fec3ba9ebf1774c73950010885e46f184c74bb141b706efae5ea174d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/guisupport.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "638ded7dd7367934166d7b782946b99aa78861530e480cdb6b41d039e4d484a2",
+        "size_in_bytes": 5856,
+        "sha256_in_prefix": "638ded7dd7367934166d7b782946b99aa78861530e480cdb6b41d039e4d484a2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/latextools.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b7c8683777b5a39a0dc73a1f50a7bf266cefa87b4f03ceb9a3521f085fbf0b6",
+        "size_in_bytes": 10330,
+        "sha256_in_prefix": "1b7c8683777b5a39a0dc73a1f50a7bf266cefa87b4f03ceb9a3521f085fbf0b6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/lexers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b33b6e8a44bb9429e1576d089e242bf7728038e571ff034b1f6bcbf21455479c",
+        "size_in_bytes": 563,
+        "sha256_in_prefix": "b33b6e8a44bb9429e1576d089e242bf7728038e571ff034b1f6bcbf21455479c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/__pycache__/pretty.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d08e5114834ee9282296159ec2092a05a680457902a5b8853d713a9ef61dbc3b",
+        "size_in_bytes": 43955,
+        "sha256_in_prefix": "d08e5114834ee9282296159ec2092a05a680457902a5b8853d713a9ef61dbc3b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/backgroundjobs.py",
+        "path_type": "hardlink",
+        "sha256": "cd9fb81363cf3e2f23365f895a5f4e6e45a91bc0f36f9c7116d0f526db6669bf",
+        "size_in_bytes": 17680,
+        "sha256_in_prefix": "cd9fb81363cf3e2f23365f895a5f4e6e45a91bc0f36f9c7116d0f526db6669bf"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/clipboard.py",
+        "path_type": "hardlink",
+        "sha256": "525ae9ce9f56cbb5d739eb3b40d3a9b3a3b7b2cdbff2b79c5ee605e3dbc88f8b",
+        "size_in_bytes": 3051,
+        "sha256_in_prefix": "525ae9ce9f56cbb5d739eb3b40d3a9b3a3b7b2cdbff2b79c5ee605e3dbc88f8b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/deepreload.py",
+        "path_type": "hardlink",
+        "sha256": "8b299311c2693ff86970ed47e464606f668e0c652d894164b2876821ef7bdfc1",
+        "size_in_bytes": 9431,
+        "sha256_in_prefix": "8b299311c2693ff86970ed47e464606f668e0c652d894164b2876821ef7bdfc1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/demo.py",
+        "path_type": "hardlink",
+        "sha256": "3d9a0081562f58ea8e278945cc99796b5e319f232cccf745470211224b8cfdba",
+        "size_in_bytes": 24502,
+        "sha256_in_prefix": "3d9a0081562f58ea8e278945cc99796b5e319f232cccf745470211224b8cfdba"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/display.py",
+        "path_type": "hardlink",
+        "sha256": "5d98b01e382ea03ccc30742d82b3dcaf2af9fa95cf66a1daf004f42d18ba1620",
+        "size_in_bytes": 24577,
+        "sha256_in_prefix": "5d98b01e382ea03ccc30742d82b3dcaf2af9fa95cf66a1daf004f42d18ba1620"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/editorhooks.py",
+        "path_type": "hardlink",
+        "sha256": "2a641a00465ac14847ab2f42bd191b99cf01357c786f5a6aa8b1614c405fd426",
+        "size_in_bytes": 3982,
+        "sha256_in_prefix": "2a641a00465ac14847ab2f42bd191b99cf01357c786f5a6aa8b1614c405fd426"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/guisupport.py",
+        "path_type": "hardlink",
+        "sha256": "7b7810136fab605d8c8fd105a9260e28e8cc0e6cacf28fb269eed212388e784b",
+        "size_in_bytes": 6300,
+        "sha256_in_prefix": "7b7810136fab605d8c8fd105a9260e28e8cc0e6cacf28fb269eed212388e784b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/latextools.py",
+        "path_type": "hardlink",
+        "sha256": "c33c1c906ad67fce14e69726bb68e7f19cc1975dba683062e52c92c1ee19f1e2",
+        "size_in_bytes": 8122,
+        "sha256_in_prefix": "c33c1c906ad67fce14e69726bb68e7f19cc1975dba683062e52c92c1ee19f1e2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/lexers.py",
+        "path_type": "hardlink",
+        "sha256": "9ade509c406e65a0d774bdd0c21f59187a268ca83134a5b5213e2533fefc45a8",
+        "size_in_bytes": 865,
+        "sha256_in_prefix": "9ade509c406e65a0d774bdd0c21f59187a268ca83134a5b5213e2533fefc45a8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/lib/pretty.py",
+        "path_type": "hardlink",
+        "sha256": "b8fa96e0b332abde96ef95176bfb3ea37c091ff6f05ec033f300dfa9c2118efd",
+        "size_in_bytes": 30962,
+        "sha256_in_prefix": "b8fa96e0b332abde96ef95176bfb3ea37c091ff6f05ec033f300dfa9c2118efd"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/paths.py",
+        "path_type": "hardlink",
+        "sha256": "40e3ecb69b760950ab0d44e7e5af90d64706040c032dbabda26a9cfb66a82d4e",
+        "size_in_bytes": 4126,
+        "sha256_in_prefix": "40e3ecb69b760950ab0d44e7e5af90d64706040c032dbabda26a9cfb66a82d4e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "075e10fe63e63058bcc0175d1f73f9e77676ef4b5aa6c61c34828b1bbdd67fe0",
+        "size_in_bytes": 144,
+        "sha256_in_prefix": "075e10fe63e63058bcc0175d1f73f9e77676ef4b5aa6c61c34828b1bbdd67fe0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/__pycache__/custom_doctests.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1832c4d9586ec38eb014c20889af6d06343e1851927de7d7b2163a9ff26a135d",
+        "size_in_bytes": 4812,
+        "sha256_in_prefix": "1832c4d9586ec38eb014c20889af6d06343e1851927de7d7b2163a9ff26a135d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/__pycache__/ipython_console_highlighting.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad1f39e3f8b658eaa81bd3c2a643b61e919c843d259f3ca9dd62b644fa789539",
+        "size_in_bytes": 721,
+        "sha256_in_prefix": "ad1f39e3f8b658eaa81bd3c2a643b61e919c843d259f3ca9dd62b644fa789539"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/__pycache__/ipython_directive.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef9c4869ddf59354a94e08ca7495a3ab347fd438596fa63b76438b47d8c7060d",
+        "size_in_bytes": 41309,
+        "sha256_in_prefix": "ef9c4869ddf59354a94e08ca7495a3ab347fd438596fa63b76438b47d8c7060d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/custom_doctests.py",
+        "path_type": "hardlink",
+        "sha256": "7ba9cb07576c2eb998130b0ab8969be9ea5d39f660fab5d3aa6608ae0f1a4812",
+        "size_in_bytes": 4610,
+        "sha256_in_prefix": "7ba9cb07576c2eb998130b0ab8969be9ea5d39f660fab5d3aa6608ae0f1a4812"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/ipython_console_highlighting.py",
+        "path_type": "hardlink",
+        "sha256": "57397290dee0bb3ddd415f6716e64cff1d8cf7cc8364fddec8b843a797c9df02",
+        "size_in_bytes": 895,
+        "sha256_in_prefix": "57397290dee0bb3ddd415f6716e64cff1d8cf7cc8364fddec8b843a797c9df02"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/ipython_directive.py",
+        "path_type": "hardlink",
+        "sha256": "9e4de2f9d2dcc5975a3f1253cdadd9b9b03d68bc361c6f4f11a5ae519212ff4a",
+        "size_in_bytes": 45948,
+        "sha256_in_prefix": "9e4de2f9d2dcc5975a3f1253cdadd9b9b03d68bc361c6f4f11a5ae519212ff4a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea08a1c725f0b45a0cd4d144eb704e939e1969d462c498436dd3e196af18649d",
+        "size_in_bytes": 150,
+        "sha256_in_prefix": "ea08a1c725f0b45a0cd4d144eb704e939e1969d462c498436dd3e196af18649d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/tests/__pycache__/test_ansi_stripping.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2f1817d1581e0f0efc0455aba4dab66e3fc9180aec8e1996d104c015429feda",
+        "size_in_bytes": 1518,
+        "sha256_in_prefix": "a2f1817d1581e0f0efc0455aba4dab66e3fc9180aec8e1996d104c015429feda"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/sphinxext/tests/test_ansi_stripping.py",
+        "path_type": "hardlink",
+        "sha256": "a7452c06a26007672c31a3e3d3a15715ac35250ef592f45140332292b51d395b",
+        "size_in_bytes": 845,
+        "sha256_in_prefix": "a7452c06a26007672c31a3e3d3a15715ac35250ef592f45140332292b51d395b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd461d6bd7e8f0ca06054176a136a3c7614faef084346d4d80a4432ea758915b",
+        "size_in_bytes": 143,
+        "sha256_in_prefix": "bd461d6bd7e8f0ca06054176a136a3c7614faef084346d4d80a4432ea758915b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/debugger.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9730f6cc0632393c870990bbfe94b96e6f4149082557b77c69a5a57a420f55f3",
+        "size_in_bytes": 9015,
+        "sha256_in_prefix": "9730f6cc0632393c870990bbfe94b96e6f4149082557b77c69a5a57a420f55f3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/embed.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8fafd3aa2a80de1d827765a0073f19c17dac9f1e409298bfd5857be7388a819",
+        "size_in_bytes": 17570,
+        "sha256_in_prefix": "e8fafd3aa2a80de1d827765a0073f19c17dac9f1e409298bfd5857be7388a819"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/interactiveshell.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0880d018edb5a3272d62546627c25cdd62ea1e864adcc2f08d6da022b6949afa",
+        "size_in_bytes": 47638,
+        "sha256_in_prefix": "0880d018edb5a3272d62546627c25cdd62ea1e864adcc2f08d6da022b6949afa"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/ipapp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "351126f2344f087be04f00904035e0e2e42931b83c4f372f6b4d518c41290853",
+        "size_in_bytes": 14209,
+        "sha256_in_prefix": "351126f2344f087be04f00904035e0e2e42931b83c4f372f6b4d518c41290853"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/magics.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "652714f00cd698fa3d4a750cd2805d2b70b97691d02d9a75963d0cacb2682987",
+        "size_in_bytes": 10084,
+        "sha256_in_prefix": "652714f00cd698fa3d4a750cd2805d2b70b97691d02d9a75963d0cacb2682987"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/prompts.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4327503167b7fdc06dd077a858d769fea9f867bb8d5efc92973f051918bfc1a",
+        "size_in_bytes": 8510,
+        "sha256_in_prefix": "b4327503167b7fdc06dd077a858d769fea9f867bb8d5efc92973f051918bfc1a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/__pycache__/ptutils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "208ca5c32a4fa1507aa66bcc2e2cb84b2039054fe992465123646beecfdc05a9",
+        "size_in_bytes": 9709,
+        "sha256_in_prefix": "208ca5c32a4fa1507aa66bcc2e2cb84b2039054fe992465123646beecfdc05a9"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/debugger.py",
+        "path_type": "hardlink",
+        "sha256": "d0b7419822951ca346a6604a75be1b0602a5cae4d5c9fcf60e0d98f301381533",
+        "size_in_bytes": 6937,
+        "sha256_in_prefix": "d0b7419822951ca346a6604a75be1b0602a5cae4d5c9fcf60e0d98f301381533"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/embed.py",
+        "path_type": "hardlink",
+        "sha256": "b91d59ef0a79cf94a962da3bb1af40eb7b0f0ed5f98745c3d38f18de00c4fd5d",
+        "size_in_bytes": 16164,
+        "sha256_in_prefix": "b91d59ef0a79cf94a962da3bb1af40eb7b0f0ed5f98745c3d38f18de00c4fd5d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/interactiveshell.py",
+        "path_type": "hardlink",
+        "sha256": "deaa1519ac85417281b2145bd4658bcfff2b62b444f2c3b07fb257ea175b31ce",
+        "size_in_bytes": 40748,
+        "sha256_in_prefix": "deaa1519ac85417281b2145bd4658bcfff2b62b444f2c3b07fb257ea175b31ce"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/ipapp.py",
+        "path_type": "hardlink",
+        "sha256": "7764688380d1915bf4fdf45ea993aea2b28c5c0b44aac0ac9303de8ed8e3d0b8",
+        "size_in_bytes": 12512,
+        "sha256_in_prefix": "7764688380d1915bf4fdf45ea993aea2b28c5c0b44aac0ac9303de8ed8e3d0b8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/magics.py",
+        "path_type": "hardlink",
+        "sha256": "e3d6552736c05241bf105a5e6f120112a9b7b440a5bea79fa1e33a427c46aeb9",
+        "size_in_bytes": 7705,
+        "sha256_in_prefix": "e3d6552736c05241bf105a5e6f120112a9b7b440a5bea79fa1e33a427c46aeb9"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/prompts.py",
+        "path_type": "hardlink",
+        "sha256": "53bfa7728c9a614c56ee520473f876f968f1a4da0464a1a7009646a0159c26ff",
+        "size_in_bytes": 4834,
+        "sha256_in_prefix": "53bfa7728c9a614c56ee520473f876f968f1a4da0464a1a7009646a0159c26ff"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c618478353512233ad31d98a456f35f6c6ece7c409bce5eab1f77a20d3219b29",
+        "size_in_bytes": 3633,
+        "sha256_in_prefix": "c618478353512233ad31d98a456f35f6c6ece7c409bce5eab1f77a20d3219b29"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae525cb0fa05159c4327de0da4addcc0de783887a187dc3eaa3004487a263310",
+        "size_in_bytes": 4473,
+        "sha256_in_prefix": "ae525cb0fa05159c4327de0da4addcc0de783887a187dc3eaa3004487a263310"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/asyncio.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3deb6571fd8e23dbb6b11ff359cdb03e3073f2c23afd09465aa1f81f166278c6",
+        "size_in_bytes": 1206,
+        "sha256_in_prefix": "3deb6571fd8e23dbb6b11ff359cdb03e3073f2c23afd09465aa1f81f166278c6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/glut.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0973341463df625cbb7bbe697ddce15596b02c3ac726da2d58b4e2e75a1df259",
+        "size_in_bytes": 4209,
+        "sha256_in_prefix": "0973341463df625cbb7bbe697ddce15596b02c3ac726da2d58b4e2e75a1df259"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "29be97bbf6f28ea3407b8ba5a91f01768f29fe5b480d3ddeddb424f233670e43",
+        "size_in_bytes": 1223,
+        "sha256_in_prefix": "29be97bbf6f28ea3407b8ba5a91f01768f29fe5b480d3ddeddb424f233670e43"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk3.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5dcb7b5753f320f9e7b66518f4399f17b2cd06d5735d4f120c3de7a7be57e88",
+        "size_in_bytes": 845,
+        "sha256_in_prefix": "c5dcb7b5753f320f9e7b66518f4399f17b2cd06d5735d4f120c3de7a7be57e88"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk4.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "33ae906941dbfea6dad288af5c8a95b080693d0176d03a9e6dc6515083ed83a2",
+        "size_in_bytes": 1530,
+        "sha256_in_prefix": "33ae906941dbfea6dad288af5c8a95b080693d0176d03a9e6dc6515083ed83a2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/osx.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9d9169b63faf535a08fe4e0d0ba3116605e0d91624d622aad745e2b60766806",
+        "size_in_bytes": 5636,
+        "sha256_in_prefix": "e9d9169b63faf535a08fe4e0d0ba3116605e0d91624d622aad745e2b60766806"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/pyglet.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b47020cba16b39ae18fca7ea800a8611309b7c821b0f13752136ad6a70e3d74",
+        "size_in_bytes": 2216,
+        "sha256_in_prefix": "7b47020cba16b39ae18fca7ea800a8611309b7c821b0f13752136ad6a70e3d74"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/qt.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "50d065001ff86c71872edd65aa34c1f93c86edddfb6b584c4844e86daaa1e4e7",
+        "size_in_bytes": 3882,
+        "sha256_in_prefix": "50d065001ff86c71872edd65aa34c1f93c86edddfb6b584c4844e86daaa1e4e7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/tk.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "26c4ba8431d20d2d277589618213d657875ad303efd077ac517993b43891bb37",
+        "size_in_bytes": 2821,
+        "sha256_in_prefix": "26c4ba8431d20d2d277589618213d657875ad303efd077ac517993b43891bb37"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/__pycache__/wx.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "928c410f516b3566058bef9d562a6712903e821189794a75ba7cb617bdc343c1",
+        "size_in_bytes": 8377,
+        "sha256_in_prefix": "928c410f516b3566058bef9d562a6712903e821189794a75ba7cb617bdc343c1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "7dfc558edd1122c874c98cdc3c3a524eb856bf9243351053a1fd0e949824b055",
+        "size_in_bytes": 1271,
+        "sha256_in_prefix": "7dfc558edd1122c874c98cdc3c3a524eb856bf9243351053a1fd0e949824b055"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/glut.py",
+        "path_type": "hardlink",
+        "sha256": "09c872ce991f02a572b4bcee2affd75ac538ae60095c2831064b0008cd9b936b",
+        "size_in_bytes": 4999,
+        "sha256_in_prefix": "09c872ce991f02a572b4bcee2affd75ac538ae60095c2831064b0008cd9b936b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/gtk.py",
+        "path_type": "hardlink",
+        "sha256": "ab1d0e4ed0dd8a7c77f5b0fd15b7fa9b42595815e6ba8ca9af9eb25084c5b5f1",
+        "size_in_bytes": 2427,
+        "sha256_in_prefix": "ab1d0e4ed0dd8a7c77f5b0fd15b7fa9b42595815e6ba8ca9af9eb25084c5b5f1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/gtk3.py",
+        "path_type": "hardlink",
+        "sha256": "fccb9922366e2ec5b68b8bef52335087dbb8c4853c91c213c89a573621f666ed",
+        "size_in_bytes": 279,
+        "sha256_in_prefix": "fccb9922366e2ec5b68b8bef52335087dbb8c4853c91c213c89a573621f666ed"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/gtk4.py",
+        "path_type": "hardlink",
+        "sha256": "aff331093edad274c766dab2b99a4f8025b60a5ee2ba8982d0f8e016d7922fd7",
+        "size_in_bytes": 557,
+        "sha256_in_prefix": "aff331093edad274c766dab2b99a4f8025b60a5ee2ba8982d0f8e016d7922fd7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/osx.py",
+        "path_type": "hardlink",
+        "sha256": "4e79ddc91fd23db9960bf03efb4391074eab847ec84b6ffb923a617cf711a97a",
+        "size_in_bytes": 4448,
+        "sha256_in_prefix": "4e79ddc91fd23db9960bf03efb4391074eab847ec84b6ffb923a617cf711a97a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/pyglet.py",
+        "path_type": "hardlink",
+        "sha256": "c030d00e08a5bcaf6ecf0181dd7c80a9c7fc2df2abf8b73f34c033ba764cbbf6",
+        "size_in_bytes": 2371,
+        "sha256_in_prefix": "c030d00e08a5bcaf6ecf0181dd7c80a9c7fc2df2abf8b73f34c033ba764cbbf6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/qt.py",
+        "path_type": "hardlink",
+        "sha256": "8af550bb7533cdf1867aea3087a94d795b6e38938bee0fd54ca720306f091e93",
+        "size_in_bytes": 3479,
+        "sha256_in_prefix": "8af550bb7533cdf1867aea3087a94d795b6e38938bee0fd54ca720306f091e93"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/tk.py",
+        "path_type": "hardlink",
+        "sha256": "1637a3bedc1bbe978164ba0109c8b5443a3f8d60f9a8494ccbb3cff9ab5df23e",
+        "size_in_bytes": 3651,
+        "sha256_in_prefix": "1637a3bedc1bbe978164ba0109c8b5443a3f8d60f9a8494ccbb3cff9ab5df23e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/pt_inputhooks/wx.py",
+        "path_type": "hardlink",
+        "sha256": "f72239da50d26773bfe46c30ff721e7a7124ff73dea4b20c1373a78785f7916d",
+        "size_in_bytes": 7126,
+        "sha256_in_prefix": "f72239da50d26773bfe46c30ff721e7a7124ff73dea4b20c1373a78785f7916d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/ptutils.py",
+        "path_type": "hardlink",
+        "sha256": "e8f58354fb81ce93312dd97f8ea2bb42d767615a1522350fe159752691591683",
+        "size_in_bytes": 8067,
+        "sha256_in_prefix": "e8f58354fb81ce93312dd97f8ea2bb42d767615a1522350fe159752691591683"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79cc67933dc389a616a6883ee1094380109cdfdca62a756a460b4c9ea2a895e2",
+        "size_in_bytes": 18636,
+        "sha256_in_prefix": "79cc67933dc389a616a6883ee1094380109cdfdca62a756a460b4c9ea2a895e2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c7cc97f39415335e2f51707c84ce3fce2414b6e3d71e500b93759cbd6a58046",
+        "size_in_bytes": 22152,
+        "sha256_in_prefix": "9c7cc97f39415335e2f51707c84ce3fce2414b6e3d71e500b93759cbd6a58046"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/auto_match.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7b134eec22d320166593da2709f61ccba5a6ae1cadaa5abbcd23f7b8342cb0b",
+        "size_in_bytes": 4744,
+        "sha256_in_prefix": "d7b134eec22d320166593da2709f61ccba5a6ae1cadaa5abbcd23f7b8342cb0b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/auto_suggest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5844c5c5827c01969b1b8d96ba7050bff9c1aa8fc72d81fdfcb50766335942a1",
+        "size_in_bytes": 30123,
+        "sha256_in_prefix": "5844c5c5827c01969b1b8d96ba7050bff9c1aa8fc72d81fdfcb50766335942a1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/__pycache__/filters.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "459cdc1dc5f3101476e0cae34654a0aa352f52a2ec33db4434e7b2005e58a44b",
+        "size_in_bytes": 13812,
+        "sha256_in_prefix": "459cdc1dc5f3101476e0cae34654a0aa352f52a2ec33db4434e7b2005e58a44b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/auto_match.py",
+        "path_type": "hardlink",
+        "sha256": "f6e4f57c36fe738130ed3488b3fcc44f58d2c4395b7d61a5bb17d6fe98f7f6d9",
+        "size_in_bytes": 3066,
+        "sha256_in_prefix": "f6e4f57c36fe738130ed3488b3fcc44f58d2c4395b7d61a5bb17d6fe98f7f6d9"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/auto_suggest.py",
+        "path_type": "hardlink",
+        "sha256": "dd187f77f3830db9fb3d8c7ea6cedc6dec1b96c3e14bbc90e4ae6863120d2ce2",
+        "size_in_bytes": 23830,
+        "sha256_in_prefix": "dd187f77f3830db9fb3d8c7ea6cedc6dec1b96c3e14bbc90e4ae6863120d2ce2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/terminal/shortcuts/filters.py",
+        "path_type": "hardlink",
+        "sha256": "a66d65040a6d37c95d9a9f24f210a52b16dde5f0ddc2f6abc1cb1af03b5a62b7",
+        "size_in_bytes": 11127,
+        "sha256_in_prefix": "a66d65040a6d37c95d9a9f24f210a52b16dde5f0ddc2f6abc1cb1af03b5a62b7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6df7b5ced37133f4675903915665899fc8766dd9cdc0a907b6763ff40223c96",
+        "size_in_bytes": 784,
+        "sha256_in_prefix": "f6df7b5ced37133f4675903915665899fc8766dd9cdc0a907b6763ff40223c96"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d3b813a1b892f32277f0f8c92d3936e01f2f8c5341474990631c48b67be1a19",
+        "size_in_bytes": 368,
+        "sha256_in_prefix": "2d3b813a1b892f32277f0f8c92d3936e01f2f8c5341474990631c48b67be1a19"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/__pycache__/decorators.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "312618f0122e27e7819957e605c762b9e52ae67fe115d58d66803760aba597d3",
+        "size_in_bytes": 5199,
+        "sha256_in_prefix": "312618f0122e27e7819957e605c762b9e52ae67fe115d58d66803760aba597d3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/__pycache__/globalipapp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1890e4d99d9c198eaeaff350de746445617be8af19c634a0971c0228429ac081",
+        "size_in_bytes": 3819,
+        "sha256_in_prefix": "1890e4d99d9c198eaeaff350de746445617be8af19c634a0971c0228429ac081"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/__pycache__/ipunittest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "61629e78298d5049e6d6f12511e03de4d6dde1291894bf1b71fea3288c6ffb28",
+        "size_in_bytes": 7389,
+        "sha256_in_prefix": "61629e78298d5049e6d6f12511e03de4d6dde1291894bf1b71fea3288c6ffb28"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/__pycache__/skipdoctest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f3d6eae266af1dea4d1ca4cee22586a9d15bcbe360dfd10963b4d29dc8f64db",
+        "size_in_bytes": 929,
+        "sha256_in_prefix": "6f3d6eae266af1dea4d1ca4cee22586a9d15bcbe360dfd10963b4d29dc8f64db"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/__pycache__/tools.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e88bfd8f1aaaa86988135d42037818c1ed14574a82730cc6a97ea7d0f771dd17",
+        "size_in_bytes": 17739,
+        "sha256_in_prefix": "e88bfd8f1aaaa86988135d42037818c1ed14574a82730cc6a97ea7d0f771dd17"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "57aea42957a359ae70bba05852fcf36b10efef3edd91efb1de12a2dfa4bc232d",
+        "size_in_bytes": 4839,
+        "sha256_in_prefix": "57aea42957a359ae70bba05852fcf36b10efef3edd91efb1de12a2dfa4bc232d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/globalipapp.py",
+        "path_type": "hardlink",
+        "sha256": "17e443eb12c52764758cd3f2700f73935d7a19f1fca93b20b1814409609e0d16",
+        "size_in_bytes": 3948,
+        "sha256_in_prefix": "17e443eb12c52764758cd3f2700f73935d7a19f1fca93b20b1814409609e0d16"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/ipunittest.py",
+        "path_type": "hardlink",
+        "sha256": "6888336a9825b0b27e9117645d38863bf76eadd33a73c54e32899d5b93b03cb1",
+        "size_in_bytes": 6762,
+        "sha256_in_prefix": "6888336a9825b0b27e9117645d38863bf76eadd33a73c54e32899d5b93b03cb1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4757f800d4c76354558f0cc6c97bc81f1e55cbe0f07e3de01a092c1dfd5c9eb",
+        "size_in_bytes": 149,
+        "sha256_in_prefix": "b4757f800d4c76354558f0cc6c97bc81f1e55cbe0f07e3de01a092c1dfd5c9eb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/dtexample.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee86114979b8f2ff6f4e6e55682aa484753b87a9fc03086ed71b5cdbbef71209",
+        "size_in_bytes": 3593,
+        "sha256_in_prefix": "ee86114979b8f2ff6f4e6e55682aa484753b87a9fc03086ed71b5cdbbef71209"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/ipdoctest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f326025050148e28d9ccc89e6ceb0506af2ad582a26e5de0d190a83f7b75f5e",
+        "size_in_bytes": 11743,
+        "sha256_in_prefix": "4f326025050148e28d9ccc89e6ceb0506af2ad582a26e5de0d190a83f7b75f5e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/pytest_ipdoctest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef054e7ecc28c0c79695889a486aa9ce79a1ee05883c01514c05456560ef588c",
+        "size_in_bytes": 38415,
+        "sha256_in_prefix": "ef054e7ecc28c0c79695889a486aa9ce79a1ee05883c01514c05456560ef588c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/setup.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8902e8a40c89a770c6ef8f3f74c4240f13064d927a5a7d4ceb3721fe29a130e7",
+        "size_in_bytes": 623,
+        "sha256_in_prefix": "8902e8a40c89a770c6ef8f3f74c4240f13064d927a5a7d4ceb3721fe29a130e7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/simple.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a60748af76722d4dc1b6c41da31fa57e21b6f03159f7df645635b5c8132866d8",
+        "size_in_bytes": 1010,
+        "sha256_in_prefix": "a60748af76722d4dc1b6c41da31fa57e21b6f03159f7df645635b5c8132866d8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/simplevars.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8831c6137bb5a42bb28e747f1f4e2ec04f5c5b123916e0334d840255bda0110d",
+        "size_in_bytes": 207,
+        "sha256_in_prefix": "8831c6137bb5a42bb28e747f1f4e2ec04f5c5b123916e0334d840255bda0110d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/test_ipdoctest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca3b95fc7420a4822f41f4367e638c3d32609039344949109cda937a3395db09",
+        "size_in_bytes": 2444,
+        "sha256_in_prefix": "ca3b95fc7420a4822f41f4367e638c3d32609039344949109cda937a3395db09"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/__pycache__/test_refs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ebd285483c6bd0b18d0dae32d24ad2807f9c8a6841682dd09097095ffc1667f",
+        "size_in_bytes": 1035,
+        "sha256_in_prefix": "8ebd285483c6bd0b18d0dae32d24ad2807f9c8a6841682dd09097095ffc1667f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/dtexample.py",
+        "path_type": "hardlink",
+        "sha256": "c9e7545f668852914b91e0f2b214f97ea68e0c9834890cd4ff3bc6392af824b7",
+        "size_in_bytes": 2921,
+        "sha256_in_prefix": "c9e7545f668852914b91e0f2b214f97ea68e0c9834890cd4ff3bc6392af824b7"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/ipdoctest.py",
+        "path_type": "hardlink",
+        "sha256": "bd84294b2d23864f46eebde87018d6afb093d891162312ab1f62a01ff06681aa",
+        "size_in_bytes": 11881,
+        "sha256_in_prefix": "bd84294b2d23864f46eebde87018d6afb093d891162312ab1f62a01ff06681aa"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/pytest_ipdoctest.py",
+        "path_type": "hardlink",
+        "sha256": "2467861c54503b105cc76481ee2719b20d03bb44455d5c32e3fecc727bf175c3",
+        "size_in_bytes": 30135,
+        "sha256_in_prefix": "2467861c54503b105cc76481ee2719b20d03bb44455d5c32e3fecc727bf175c3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/setup.py",
+        "path_type": "hardlink",
+        "sha256": "f78e5ad3d666d87596bee91de48559e2fe69d5ccd03c97d596be7f21d7b2d800",
+        "size_in_bytes": 539,
+        "sha256_in_prefix": "f78e5ad3d666d87596bee91de48559e2fe69d5ccd03c97d596be7f21d7b2d800"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/simple.py",
+        "path_type": "hardlink",
+        "sha256": "17b7b7663fc2739f71764842916db16a87181861b94ff1870e547075493bfaaa",
+        "size_in_bytes": 727,
+        "sha256_in_prefix": "17b7b7663fc2739f71764842916db16a87181861b94ff1870e547075493bfaaa"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/simplevars.py",
+        "path_type": "hardlink",
+        "sha256": "6199c3bc5a90b8572b8339209a6fa4a154492839c709fd36efc6394bfb722378",
+        "size_in_bytes": 24,
+        "sha256_in_prefix": "6199c3bc5a90b8572b8339209a6fa4a154492839c709fd36efc6394bfb722378"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/test_combo.txt",
+        "path_type": "hardlink",
+        "sha256": "aeb5e374e95187d0e5b45bb71a9b96b83d07a23b63e1041c1013a6e76677f9d1",
+        "size_in_bytes": 923,
+        "sha256_in_prefix": "aeb5e374e95187d0e5b45bb71a9b96b83d07a23b63e1041c1013a6e76677f9d1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/test_example.txt",
+        "path_type": "hardlink",
+        "sha256": "08633c6992181e578f0dd027475c97dcc7c31aed0e71e66952223f638b5919a5",
+        "size_in_bytes": 730,
+        "sha256_in_prefix": "08633c6992181e578f0dd027475c97dcc7c31aed0e71e66952223f638b5919a5"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/test_exampleip.txt",
+        "path_type": "hardlink",
+        "sha256": "e602dc8fc88293e582386cf439ba50a6e64c846c12d6350cc87de6a2e1b14092",
+        "size_in_bytes": 814,
+        "sha256_in_prefix": "e602dc8fc88293e582386cf439ba50a6e64c846c12d6350cc87de6a2e1b14092"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/test_ipdoctest.py",
+        "path_type": "hardlink",
+        "sha256": "2dcdea41d6776a65dff44280ec99577f7d1bdc1ccff11c1d352f7e48c45ed8fd",
+        "size_in_bytes": 1907,
+        "sha256_in_prefix": "2dcdea41d6776a65dff44280ec99577f7d1bdc1ccff11c1d352f7e48c45ed8fd"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/plugin/test_refs.py",
+        "path_type": "hardlink",
+        "sha256": "cbe63643c9e24486da6a76f0a48cef130c1a1e425f02ad741d87dbe1b0171c17",
+        "size_in_bytes": 715,
+        "sha256_in_prefix": "cbe63643c9e24486da6a76f0a48cef130c1a1e425f02ad741d87dbe1b0171c17"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/skipdoctest.py",
+        "path_type": "hardlink",
+        "sha256": "8d81af5a5a324e21052a3f347d8f365fc79bc559a31029f57a572f8ad04ddfc4",
+        "size_in_bytes": 752,
+        "sha256_in_prefix": "8d81af5a5a324e21052a3f347d8f365fc79bc559a31029f57a572f8ad04ddfc4"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/testing/tools.py",
+        "path_type": "hardlink",
+        "sha256": "b6314ae41f9f88e837126d21a0d6e607d8ab62008a5cad732da90575fc350559",
+        "size_in_bytes": 13303,
+        "sha256_in_prefix": "b6314ae41f9f88e837126d21a0d6e607d8ab62008a5cad732da90575fc350559"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/PyColorize.py",
+        "path_type": "hardlink",
+        "sha256": "63a5c8b8d449b9c8ff4f0ac53025bb25f815d74760caf8025daa315915b71794",
+        "size_in_bytes": 17674,
+        "sha256_in_prefix": "63a5c8b8d449b9c8ff4f0ac53025bb25f815d74760caf8025daa315915b71794"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/PyColorize.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e8aa6acba9bf48426a7ad6b7b7586cd34a3c262e77ce362584de3388c35b0f8",
+        "size_in_bytes": 22358,
+        "sha256_in_prefix": "9e8aa6acba9bf48426a7ad6b7b7586cd34a3c262e77ce362584de3388c35b0f8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1951d721ba959404d156bb04e3c57b4693ae97dff5943f64ac3ac21c8e4ed4da",
+        "size_in_bytes": 140,
+        "sha256_in_prefix": "1951d721ba959404d156bb04e3c57b4693ae97dff5943f64ac3ac21c8e4ed4da"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/_process_cli.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e4a61807f3d1e447bee9640785355fbf582963195174219b0eb936897cb9ede",
+        "size_in_bytes": 2814,
+        "sha256_in_prefix": "6e4a61807f3d1e447bee9640785355fbf582963195174219b0eb936897cb9ede"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/_process_common.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6e08363b4a4dedef6d2de9b2fb3a206d81bafe5c680bd7cf627c54faeae4586",
+        "size_in_bytes": 10478,
+        "sha256_in_prefix": "e6e08363b4a4dedef6d2de9b2fb3a206d81bafe5c680bd7cf627c54faeae4586"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/_process_emscripten.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c433a10e9756f84dabaf13f325588459c5f0800417b630209706b942219865db",
+        "size_in_bytes": 798,
+        "sha256_in_prefix": "c433a10e9756f84dabaf13f325588459c5f0800417b630209706b942219865db"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/_process_posix.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd460efa8001573da99f003d8eec23f7add1f0e07d381a5f1e377f2ce5fbd435",
+        "size_in_bytes": 6218,
+        "sha256_in_prefix": "dd460efa8001573da99f003d8eec23f7add1f0e07d381a5f1e377f2ce5fbd435"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/_process_win32.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "32256d94db0cd9ffee99a0156ce32113f2453e345e146029f495e26fd26d85f6",
+        "size_in_bytes": 8378,
+        "sha256_in_prefix": "32256d94db0cd9ffee99a0156ce32113f2453e345e146029f495e26fd26d85f6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/_process_win32_controller.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b4b20b49ff104843f1e74880304779adef957385b87bd095c48b42e9bdae3c6",
+        "size_in_bytes": 21684,
+        "sha256_in_prefix": "5b4b20b49ff104843f1e74880304779adef957385b87bd095c48b42e9bdae3c6"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/_sysinfo.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "92b41f5fc2f7a17378442860d94e96bf87acdc92a7818558d990929c529f3cc2",
+        "size_in_bytes": 163,
+        "sha256_in_prefix": "92b41f5fc2f7a17378442860d94e96bf87acdc92a7818558d990929c529f3cc2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/capture.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d88d1a747dcdd06a113432c797f8d83278aaead51ec18cc9152ef7292f2d270",
+        "size_in_bytes": 8621,
+        "sha256_in_prefix": "0d88d1a747dcdd06a113432c797f8d83278aaead51ec18cc9152ef7292f2d270"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/coloransi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a95b5249a76050c34e17a816ab3e789f87e146d4ebdcc3d2928fab22762f1ffe",
+        "size_in_bytes": 356,
+        "sha256_in_prefix": "a95b5249a76050c34e17a816ab3e789f87e146d4ebdcc3d2928fab22762f1ffe"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/contexts.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "58faba03b6965cab63cfce30fcf15b45f94c3737f7da45235705234d5d1219b8",
+        "size_in_bytes": 2536,
+        "sha256_in_prefix": "58faba03b6965cab63cfce30fcf15b45f94c3737f7da45235705234d5d1219b8"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/data.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1af6e1493b0bf65042212cf3676967ff2f81bec5d026c42fd59b4e9c64fe2d89",
+        "size_in_bytes": 1922,
+        "sha256_in_prefix": "1af6e1493b0bf65042212cf3676967ff2f81bec5d026c42fd59b4e9c64fe2d89"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/decorators.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee67a3c083a5b6d4afe9a987df12d08d88be83fff4a13fbfe7ffacc587a14bbb",
+        "size_in_bytes": 2821,
+        "sha256_in_prefix": "ee67a3c083a5b6d4afe9a987df12d08d88be83fff4a13fbfe7ffacc587a14bbb"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/dir2.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "274ba06ffff462260880637fdd323118a3a52a9ae13a870067342ee44215b851",
+        "size_in_bytes": 2732,
+        "sha256_in_prefix": "274ba06ffff462260880637fdd323118a3a52a9ae13a870067342ee44215b851"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/docs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "95e4618920cb1deccad79033be7d144484cf175583a882a52cc0b6e1ff09df8d",
+        "size_in_bytes": 302,
+        "sha256_in_prefix": "95e4618920cb1deccad79033be7d144484cf175583a882a52cc0b6e1ff09df8d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/encoding.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bc9cfc66a07b3dfd461922e38ce64520e368d111d3d20ad21350c73204f9a10",
+        "size_in_bytes": 2775,
+        "sha256_in_prefix": "3bc9cfc66a07b3dfd461922e38ce64520e368d111d3d20ad21350c73204f9a10"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/eventful.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "237bab4afdcff966b52d09ac9989e8a7018b0fdfcd925c82fe37d7ae758b6c72",
+        "size_in_bytes": 324,
+        "sha256_in_prefix": "237bab4afdcff966b52d09ac9989e8a7018b0fdfcd925c82fe37d7ae758b6c72"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/frame.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "65c2f691fe5f9023cd574ce60aeac1c31ee4edc41fd93a19b79c3233e99105b2",
+        "size_in_bytes": 3850,
+        "sha256_in_prefix": "65c2f691fe5f9023cd574ce60aeac1c31ee4edc41fd93a19b79c3233e99105b2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/generics.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ee7ce2313a01962f0ca2f7a10538098d0fd448e7d443917982bcc1889dd7936",
+        "size_in_bytes": 2021,
+        "sha256_in_prefix": "0ee7ce2313a01962f0ca2f7a10538098d0fd448e7d443917982bcc1889dd7936"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/importstring.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "be9a8227a20a98558a36f9c108252dbe3422498de0855c6087719242eb9494d0",
+        "size_in_bytes": 1339,
+        "sha256_in_prefix": "be9a8227a20a98558a36f9c108252dbe3422498de0855c6087719242eb9494d0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/io.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "214d9340bd18ab27ba145fe17dcacc3cd08b2bebe3fa0161ff1b90ef5dbe163b",
+        "size_in_bytes": 5603,
+        "sha256_in_prefix": "214d9340bd18ab27ba145fe17dcacc3cd08b2bebe3fa0161ff1b90ef5dbe163b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/ipstruct.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecb2f38abaef428ab33b32eb0d94706d0904fdeac074c73f3be5d4c7200ddcfe",
+        "size_in_bytes": 12668,
+        "sha256_in_prefix": "ecb2f38abaef428ab33b32eb0d94706d0904fdeac074c73f3be5d4c7200ddcfe"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/jsonutil.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9728dd81c1d725c23f39f298623b3d78784c632751c94d7d6fe6034de1a8129",
+        "size_in_bytes": 334,
+        "sha256_in_prefix": "a9728dd81c1d725c23f39f298623b3d78784c632751c94d7d6fe6034de1a8129"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/log.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f028f3d2412102fa13cf087a8b45929c3a7eaad36952eee0069e1a63a2759394",
+        "size_in_bytes": 304,
+        "sha256_in_prefix": "f028f3d2412102fa13cf087a8b45929c3a7eaad36952eee0069e1a63a2759394"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/module_paths.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "faa91340230ceb2ff35c477e46958bf4a5b7c099ff5aa9bf07d3f9eef563042e",
+        "size_in_bytes": 1728,
+        "sha256_in_prefix": "faa91340230ceb2ff35c477e46958bf4a5b7c099ff5aa9bf07d3f9eef563042e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/openpy.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7995be4c51661e4a50e6da86ba9f6664170fb43bd804fb0662123fbe7099c553",
+        "size_in_bytes": 4863,
+        "sha256_in_prefix": "7995be4c51661e4a50e6da86ba9f6664170fb43bd804fb0662123fbe7099c553"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/path.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc4784637a48a83444a80b37a6cfe9bacaa69d27ee2d62143f6b596b4d5f083b",
+        "size_in_bytes": 14261,
+        "sha256_in_prefix": "fc4784637a48a83444a80b37a6cfe9bacaa69d27ee2d62143f6b596b4d5f083b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/process.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c66e27d25df2dbab67d643e95a34c264af5910d4bed64f484b8d012b466831d",
+        "size_in_bytes": 2753,
+        "sha256_in_prefix": "9c66e27d25df2dbab67d643e95a34c264af5910d4bed64f484b8d012b466831d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/py3compat.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "811d3f2a875f193f41349f344be498987a7d75259c4263c67b99f01d3a448a3b",
+        "size_in_bytes": 2423,
+        "sha256_in_prefix": "811d3f2a875f193f41349f344be498987a7d75259c4263c67b99f01d3a448a3b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/sentinel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6a6ee561d63e81d64d10da4c5697561dc5b1e92347029079ce31eff48f510c1",
+        "size_in_bytes": 944,
+        "sha256_in_prefix": "b6a6ee561d63e81d64d10da4c5697561dc5b1e92347029079ce31eff48f510c1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/strdispatch.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "14497c7800174f84c7a9ff91d247e894511b236368b8d4400468e2aeb43846d9",
+        "size_in_bytes": 3183,
+        "sha256_in_prefix": "14497c7800174f84c7a9ff91d247e894511b236368b8d4400468e2aeb43846d9"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/sysinfo.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4f20867c4b56306fb23dcb4569fa99a3b733b84b77615bbdc0db8bab3e0bc8d",
+        "size_in_bytes": 4057,
+        "sha256_in_prefix": "c4f20867c4b56306fb23dcb4569fa99a3b733b84b77615bbdc0db8bab3e0bc8d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/syspathcontext.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "52db4bcc220d86f5fb95a68a1bd8afbe7fa1aeaf2ae00db86fe81f2ffd915806",
+        "size_in_bytes": 1877,
+        "sha256_in_prefix": "52db4bcc220d86f5fb95a68a1bd8afbe7fa1aeaf2ae00db86fe81f2ffd915806"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/tempdir.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fc6e07d99af8d736cf9451f865062eb8be925c70e5eedb1ea202a4ed8215e2f",
+        "size_in_bytes": 3961,
+        "sha256_in_prefix": "1fc6e07d99af8d736cf9451f865062eb8be925c70e5eedb1ea202a4ed8215e2f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/terminal.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a418fc5e193b531d5cac684a7db0a4c4c96d89fb43c91fa6c713fc05c6524ce1",
+        "size_in_bytes": 4164,
+        "sha256_in_prefix": "a418fc5e193b531d5cac684a7db0a4c4c96d89fb43c91fa6c713fc05c6524ce1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/text.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "53226c7dbc6f1d5ed016b8ab9c3ee0668585aaedcaf8142de29462182902fcda",
+        "size_in_bytes": 23915,
+        "sha256_in_prefix": "53226c7dbc6f1d5ed016b8ab9c3ee0668585aaedcaf8142de29462182902fcda"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/timing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a1e8e39d9df036beb9398024ac39f719f28bab317ea3ea0da84712b860c202e",
+        "size_in_bytes": 4827,
+        "sha256_in_prefix": "7a1e8e39d9df036beb9398024ac39f719f28bab317ea3ea0da84712b860c202e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/tokenutil.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f64dfc3cb4f036e6c7009ffc29b16dade09027aff678ebd823215c6234132880",
+        "size_in_bytes": 6600,
+        "sha256_in_prefix": "f64dfc3cb4f036e6c7009ffc29b16dade09027aff678ebd823215c6234132880"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/__pycache__/wildcard.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7b474034c524f2a3532aaead5408ec539043f89316ff817c15e8c3da227b766",
+        "size_in_bytes": 4614,
+        "sha256_in_prefix": "c7b474034c524f2a3532aaead5408ec539043f89316ff817c15e8c3da227b766"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/_process_cli.py",
+        "path_type": "hardlink",
+        "sha256": "b4959830480d62078cc7dbfe9f760b6ca5b4b4f6c5b697337c31f6f110b79f80",
+        "size_in_bytes": 2020,
+        "sha256_in_prefix": "b4959830480d62078cc7dbfe9f760b6ca5b4b4f6c5b697337c31f6f110b79f80"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/_process_common.py",
+        "path_type": "hardlink",
+        "sha256": "47cbb3fc0f44cf09fccc55d9884c7f98adc0d80fc8f40db5157fe1c007cd9725",
+        "size_in_bytes": 9233,
+        "sha256_in_prefix": "47cbb3fc0f44cf09fccc55d9884c7f98adc0d80fc8f40db5157fe1c007cd9725"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/_process_emscripten.py",
+        "path_type": "hardlink",
+        "sha256": "9462d06f622099a9cdb5be74d8a7e57ee288860385d75f498b7730a387e72588",
+        "size_in_bytes": 503,
+        "sha256_in_prefix": "9462d06f622099a9cdb5be74d8a7e57ee288860385d75f498b7730a387e72588"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/_process_posix.py",
+        "path_type": "hardlink",
+        "sha256": "68e12d82e852def7569e0069c2cd5741444ef0ecea77981188293d54b932ead0",
+        "size_in_bytes": 7502,
+        "sha256_in_prefix": "68e12d82e852def7569e0069c2cd5741444ef0ecea77981188293d54b932ead0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/_process_win32.py",
+        "path_type": "hardlink",
+        "sha256": "016723e77a9658abf7bf311a28eff268e0154f553c972373fa330828b40d4560",
+        "size_in_bytes": 6746,
+        "sha256_in_prefix": "016723e77a9658abf7bf311a28eff268e0154f553c972373fa330828b40d4560"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/_process_win32_controller.py",
+        "path_type": "hardlink",
+        "sha256": "862d9e47b98b6e5dd34cc0956e0a6cf391a9a7176d61b84e60afe5d775af61a3",
+        "size_in_bytes": 21343,
+        "sha256_in_prefix": "862d9e47b98b6e5dd34cc0956e0a6cf391a9a7176d61b84e60afe5d775af61a3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/_sysinfo.py",
+        "path_type": "hardlink",
+        "sha256": "f1ff7c474f728683c9138bb59931df5f66a1e34a014ce8858593e1d8b1e8e37c",
+        "size_in_bytes": 43,
+        "sha256_in_prefix": "f1ff7c474f728683c9138bb59931df5f66a1e34a014ce8858593e1d8b1e8e37c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/capture.py",
+        "path_type": "hardlink",
+        "sha256": "6020b8171ae89abb7376c3a1f2cfde26cdaf9f080d2b45479740a4572788a562",
+        "size_in_bytes": 5443,
+        "sha256_in_prefix": "6020b8171ae89abb7376c3a1f2cfde26cdaf9f080d2b45479740a4572788a562"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/coloransi.py",
+        "path_type": "hardlink",
+        "sha256": "08c2fe4a4ccb6bba1a20ad6aca96f7bb071f3d70de287c59422309d085af518d",
+        "size_in_bytes": 293,
+        "sha256_in_prefix": "08c2fe4a4ccb6bba1a20ad6aca96f7bb071f3d70de287c59422309d085af518d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/contexts.py",
+        "path_type": "hardlink",
+        "sha256": "fc23e911410ddb188e0933139cdef7c96141aec48d04b09d642f153dfacd9e5c",
+        "size_in_bytes": 1900,
+        "sha256_in_prefix": "fc23e911410ddb188e0933139cdef7c96141aec48d04b09d642f153dfacd9e5c"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/data.py",
+        "path_type": "hardlink",
+        "sha256": "a3222479aa2db551582a4a9a4585afa7a0e2fa218e835a568029a0a6ae563b49",
+        "size_in_bytes": 1672,
+        "sha256_in_prefix": "a3222479aa2db551582a4a9a4585afa7a0e2fa218e835a568029a0a6ae563b49"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "5f64e1a80546dd21696323c5cb9a331859d8e8296351fe4b1f45306d37e1ccd3",
+        "size_in_bytes": 3023,
+        "sha256_in_prefix": "5f64e1a80546dd21696323c5cb9a331859d8e8296351fe4b1f45306d37e1ccd3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/dir2.py",
+        "path_type": "hardlink",
+        "sha256": "8f7a056d9595d815909cd093aa2187d16fe61b98b9bea036ea832e3001fba1b1",
+        "size_in_bytes": 2384,
+        "sha256_in_prefix": "8f7a056d9595d815909cd093aa2187d16fe61b98b9bea036ea832e3001fba1b1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/docs.py",
+        "path_type": "hardlink",
+        "sha256": "418f27d1c16b4d2ea078f993dd3a69bfd4f381cdcfce57f7dd7bb3030884ff01",
+        "size_in_bytes": 86,
+        "sha256_in_prefix": "418f27d1c16b4d2ea078f993dd3a69bfd4f381cdcfce57f7dd7bb3030884ff01"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "2ffdc68c31bcdde336e3b3e0023613d0a363b13126f964535ca16471b838a4ff",
+        "size_in_bytes": 3477,
+        "sha256_in_prefix": "2ffdc68c31bcdde336e3b3e0023613d0a363b13126f964535ca16471b838a4ff"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/eventful.py",
+        "path_type": "hardlink",
+        "sha256": "89d6dc4fb1b2678de1ad7f5ee9c2366f3ee42abdfcf7230113d868b3a6a63331",
+        "size_in_bytes": 138,
+        "sha256_in_prefix": "89d6dc4fb1b2678de1ad7f5ee9c2366f3ee42abdfcf7230113d868b3a6a63331"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/frame.py",
+        "path_type": "hardlink",
+        "sha256": "c7b51ced9779ed3db182b1a7ff3c840fe8260ebe7336cadfde07b0dd9cb5c84b",
+        "size_in_bytes": 3254,
+        "sha256_in_prefix": "c7b51ced9779ed3db182b1a7ff3c840fe8260ebe7336cadfde07b0dd9cb5c84b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/generics.py",
+        "path_type": "hardlink",
+        "sha256": "169dba1e26dee5f0228eb987ea0d9596a1d7a9496cf52bd0300ddb91fd0fe585",
+        "size_in_bytes": 1516,
+        "sha256_in_prefix": "169dba1e26dee5f0228eb987ea0d9596a1d7a9496cf52bd0300ddb91fd0fe585"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/importstring.py",
+        "path_type": "hardlink",
+        "sha256": "20064b2bc9466188e44ac8e63e6e6dfdb0806c8e79c46e142b224fcd01c639c3",
+        "size_in_bytes": 1082,
+        "sha256_in_prefix": "20064b2bc9466188e44ac8e63e6e6dfdb0806c8e79c46e142b224fcd01c639c3"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/io.py",
+        "path_type": "hardlink",
+        "sha256": "42f907e881300b29e39eea8733f54378fcf830469e924a0b02e9bae0c15ab2e2",
+        "size_in_bytes": 4026,
+        "sha256_in_prefix": "42f907e881300b29e39eea8733f54378fcf830469e924a0b02e9bae0c15ab2e2"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/ipstruct.py",
+        "path_type": "hardlink",
+        "sha256": "4450b8b4f6d63f289eb4d8543a0465a72d3b5894ecf201a21bfb88a40908dcae",
+        "size_in_bytes": 11911,
+        "sha256_in_prefix": "4450b8b4f6d63f289eb4d8543a0465a72d3b5894ecf201a21bfb88a40908dcae"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/jsonutil.py",
+        "path_type": "hardlink",
+        "sha256": "d90b005ee78221b6e68f2cf7ec89bdc97538d572bf5c627d68603b3468a50c8b",
+        "size_in_bytes": 148,
+        "sha256_in_prefix": "d90b005ee78221b6e68f2cf7ec89bdc97538d572bf5c627d68603b3468a50c8b"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/log.py",
+        "path_type": "hardlink",
+        "sha256": "ded6092ea6446b8d334d7d2d80a9e96fe6ef8f836123ae0f8a389157a9a773bf",
+        "size_in_bytes": 123,
+        "sha256_in_prefix": "ded6092ea6446b8d334d7d2d80a9e96fe6ef8f836123ae0f8a389157a9a773bf"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/module_paths.py",
+        "path_type": "hardlink",
+        "sha256": "d6650d8f5cb96522ff5f82d7114d8403dbdcbf38dba08432ef60278345f84ce1",
+        "size_in_bytes": 2517,
+        "sha256_in_prefix": "d6650d8f5cb96522ff5f82d7114d8403dbdcbf38dba08432ef60278345f84ce1"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/openpy.py",
+        "path_type": "hardlink",
+        "sha256": "27f42745479aceadfee96da3c844690114e0e322fc0d926ee340b81c6f5bbc7d",
+        "size_in_bytes": 3623,
+        "sha256_in_prefix": "27f42745479aceadfee96da3c844690114e0e322fc0d926ee340b81c6f5bbc7d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/path.py",
+        "path_type": "hardlink",
+        "sha256": "0fe683f0afe2624724af7f986cd9552f161047a72d10a21a390442032155736e",
+        "size_in_bytes": 10957,
+        "sha256_in_prefix": "0fe683f0afe2624724af7f986cd9552f161047a72d10a21a390442032155736e"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/process.py",
+        "path_type": "hardlink",
+        "sha256": "5c2878dbf34213bea48a34285ee6f5b038a662c48a6788786ea3ce5055a710f0",
+        "size_in_bytes": 2034,
+        "sha256_in_prefix": "5c2878dbf34213bea48a34285ee6f5b038a662c48a6788786ea3ce5055a710f0"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/py3compat.py",
+        "path_type": "hardlink",
+        "sha256": "8e00fac180e3e90b02358f67e3a9e3f486df59531b0c18c84f57369a0088ff9d",
+        "size_in_bytes": 1530,
+        "sha256_in_prefix": "8e00fac180e3e90b02358f67e3a9e3f486df59531b0c18c84f57369a0088ff9d"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/sentinel.py",
+        "path_type": "hardlink",
+        "sha256": "ce8aa4280c5552fae543bc4c030d3681a49315d4944b40c1a3a3862997d9d5ed",
+        "size_in_bytes": 454,
+        "sha256_in_prefix": "ce8aa4280c5552fae543bc4c030d3681a49315d4944b40c1a3a3862997d9d5ed"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/strdispatch.py",
+        "path_type": "hardlink",
+        "sha256": "0bc03a7ed19fd28e15c89f0d2b606df06c825311be40580d246a8e3cf073d454",
+        "size_in_bytes": 1880,
+        "sha256_in_prefix": "0bc03a7ed19fd28e15c89f0d2b606df06c825311be40580d246a8e3cf073d454"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/sysinfo.py",
+        "path_type": "hardlink",
+        "sha256": "adb34eb6a0ca61861de2ff0a2b4a027098a488c9ab7283ec1406bef9f4d36871",
+        "size_in_bytes": 3720,
+        "sha256_in_prefix": "adb34eb6a0ca61861de2ff0a2b4a027098a488c9ab7283ec1406bef9f4d36871"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/syspathcontext.py",
+        "path_type": "hardlink",
+        "sha256": "f758b13c704a970d0b92e5ad92e2508521aef1d8e460ff2640d604cdac50e371",
+        "size_in_bytes": 963,
+        "sha256_in_prefix": "f758b13c704a970d0b92e5ad92e2508521aef1d8e460ff2640d604cdac50e371"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "18f2595aa85a802be687b9efb6950aa9428c728d1362280fa70472cdad83d613",
+        "size_in_bytes": 2164,
+        "sha256_in_prefix": "18f2595aa85a802be687b9efb6950aa9428c728d1362280fa70472cdad83d613"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/terminal.py",
+        "path_type": "hardlink",
+        "sha256": "e707bf5efd0fb860bd9f4ed280f4f7a84693da686221ebe3a4824d83754a4d7a",
+        "size_in_bytes": 3265,
+        "sha256_in_prefix": "e707bf5efd0fb860bd9f4ed280f4f7a84693da686221ebe3a4824d83754a4d7a"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/text.py",
+        "path_type": "hardlink",
+        "sha256": "37ae7d89c3220196463160ef43f7cf61d4836c8805b415ca8e38b286695a1d3f",
+        "size_in_bytes": 18933,
+        "sha256_in_prefix": "37ae7d89c3220196463160ef43f7cf61d4836c8805b415ca8e38b286695a1d3f"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/timing.py",
+        "path_type": "hardlink",
+        "sha256": "4a1bd7d9872b469172c82e79daf04da58712fa1207e8532289d079f95275fd89",
+        "size_in_bytes": 4596,
+        "sha256_in_prefix": "4a1bd7d9872b469172c82e79daf04da58712fa1207e8532289d079f95275fd89"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/tokenutil.py",
+        "path_type": "hardlink",
+        "sha256": "74f844fa60980b7cb801c2d7d3b56509dbb05279cf9e58e83e3951112d34e207",
+        "size_in_bytes": 6599,
+        "sha256_in_prefix": "74f844fa60980b7cb801c2d7d3b56509dbb05279cf9e58e83e3951112d34e207"
+      },
+      {
+        "_path": "Lib/site-packages/IPython/utils/wildcard.py",
+        "path_type": "hardlink",
+        "sha256": "e8411cdce118a7e22e4a889d2fa9f0a5a1e0fbe1b19f36c02539858b3efb08d1",
+        "size_in_bytes": 4612,
+        "sha256_in_prefix": "e8411cdce118a7e22e4a889d2fa9f0a5a1e0fbe1b19f36c02539858b3efb08d1"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2eb56fbe76bccaa6b50a7031c5b88e766fc3a41ab3cead21c8040caa0eaee767",
+        "size_in_bytes": 4813,
+        "sha256_in_prefix": "2eb56fbe76bccaa6b50a7031c5b88e766fc3a41ab3cead21c8040caa0eaee767"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "20d65f17c52c26b5dd4af5af06bbe5e54cac9a79c13752935bf9e6a6d9d5a344",
+        "size_in_bytes": 26792,
+        "sha256_in_prefix": "20d65f17c52c26b5dd4af5af06bbe5e54cac9a79c13752935bf9e6a6d9d5a344"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "98232ca18e4b29a420c4c048170a674f08e26e5ee80c11c1134476ef0b20ba31",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "98232ca18e4b29a420c4c048170a674f08e26e5ee80c11c1134476ef0b20ba31"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9a13fb59a0cb2cb7e5e3045cb15427617753f7537cf1797fbb6c7c019b4ba225",
+        "size_in_bytes": 97,
+        "sha256_in_prefix": "9a13fb59a0cb2cb7e5e3045cb15427617753f7537cf1797fbb6c7c019b4ba225"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "cf9044128856820d121dd81d78d0017f84f77eefa5afd5ba17f6d63901cb755b",
+        "size_in_bytes": 83,
+        "sha256_in_prefix": "cf9044128856820d121dd81d78d0017f84f77eefa5afd5ba17f6d63901cb755b"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/licenses/COPYING.rst",
+        "path_type": "hardlink",
+        "sha256": "341afcbd729887b7046fe7b98fc4f4edff3aed8d38f06eefd9b30670f043df17",
+        "size_in_bytes": 1639,
+        "sha256_in_prefix": "341afcbd729887b7046fe7b98fc4f4edff3aed8d38f06eefd9b30670f043df17"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e0e390748ed440ab893ca1f135a88a920aaf5409dbb90a5b427c75c5e51268fb",
+        "size_in_bytes": 1720,
+        "sha256_in_prefix": "e0e390748ed440ab893ca1f135a88a920aaf5409dbb90a5b427c75c5e51268fb"
+      },
+      {
+        "_path": "Lib/site-packages/ipython-9.15.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3ca8ef1ed342059f441d399dda6c09d49fe4de3d05e83d654c5cc87091453c45",
+        "size_in_bytes": 8,
+        "sha256_in_prefix": "3ca8ef1ed342059f441d399dda6c09d49fe4de3d05e83d654c5cc87091453c45"
+      },
+      {
+        "_path": "Scripts/ipython-script.py",
+        "path_type": "hardlink",
+        "sha256": "ff7bde76e16071b4dee8628080840de7d678de7cbb146195f9ed38492b631ebe",
+        "size_in_bytes": 219,
+        "sha256_in_prefix": "ff7bde76e16071b4dee8628080840de7d678de7cbb146195f9ed38492b631ebe"
+      },
+      {
+        "_path": "Scripts/ipython.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032,
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059"
+      },
+      {
+        "_path": "Scripts/ipython3-script.py",
+        "path_type": "hardlink",
+        "sha256": "ff7bde76e16071b4dee8628080840de7d678de7cbb146195f9ed38492b631ebe",
+        "size_in_bytes": 219,
+        "sha256_in_prefix": "ff7bde76e16071b4dee8628080840de7d678de7cbb146195f9ed38492b631ebe"
+      },
+      {
+        "_path": "Scripts/ipython3.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032,
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059"
+      },
+      {
+        "_path": "share/man/man1/ipython.1",
+        "path_type": "hardlink",
+        "sha256": "3d57503f6847987c94130ccb38f7206af9c27bd8d30d5accd63299b7872717f4",
+        "size_in_bytes": 2058,
+        "sha256_in_prefix": "3d57503f6847987c94130ccb38f7206af9c27bd8d30d5accd63299b7872717f4"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\ATHARVA\\anaconda3\\pkgs\\ipython-9.15.0-py312haa95532_0",
+    "type": 1
+  }
+}
