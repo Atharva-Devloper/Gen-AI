@@ -8,3 +8,4 @@ flask
 memory-profiler
 streamlit
 scikit-learn
+tensorflow
